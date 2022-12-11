@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@500;600;700&family=Open+Sans:ital@0;1&display=swap');
+body{
+    font-family: 'Montserrat';
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.tab-menu li.active{
+    border-bottom: 4px solid #E0AF7E;
+}
+.tab-menu li.active svg{
+    fill: #E0AF7E;
+}
+.tab-menu li.active svg path{
+    stroke: #E0AF7E;
+}
+.tab-menu-side li.active{
+    background-color: #F5E7D8;;
+}
+input[type='radio']:checked{
+    accent-color: #B38C64;
+}
+.modal-add-ban{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s all;
+
+}
+.show-modal{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s all;
+}
+.tab-date li.active{
+    background-color: #E0AF7E;
+}
+.tab-date li.active a{
+    color: white;
+}

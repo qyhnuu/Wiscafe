@@ -1,0 +1,1477 @@
+Index: db.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n    \"milkteax\": [\r\n        {\r\n            \"id\": 1,\r\n            \"title\": \"Trà sữa\",\r\n            \"img\": \"../../img/milk-tea/1.png\",\r\n            \"status\": 2\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"title\": \"Trà vải\",\r\n            \"img\": \"../../img/milk-tea/2.png\",\r\n            \"status\": 1\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"title\": \"Sữa chua xoài\",\r\n            \"img\": \"../../img/milk-tea/3.png\",\r\n            \"status\": 1\r\n        },\r\n        {\r\n            \"id\": 4,\r\n            \"title\": \"Detox hoa quả\",\r\n            \"img\": \"../../img/milk-tea/4.png\",\r\n            \"status\": 1\r\n        },\r\n        {\r\n            \"id\": 5,\r\n            \"title\": \"Trà dâu\",\r\n            \"img\": \"../../img/milk-tea/5.png\",\r\n            \"status\": 1\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"title\": \"Soda chanh\",\r\n            \"img\": \"../../img/milk-tea/6.png\",\r\n            \"status\": 1\r\n        },\r\n        {\r\n            \"id\": 7,\r\n            \"title\": \"Cà phê sữa\",\r\n            \"img\": \"../../img/milk-tea/7.png\",\r\n            \"status\": 1\r\n        },\r\n        {\r\n            \"id\": 8,\r\n            \"title\": \"Nước cam\",\r\n            \"img\": \"../../img/milk-tea/8.png\",\r\n            \"status\": 1\r\n        },\r\n        {\r\n            \"id\": 9,\r\n            \"title\": \"Trà đào cam sả\",\r\n            \"img\": \"../../img/milk-tea/9.png\",\r\n            \"status\": 1\r\n        }\r\n    ],\r\n    \"comments\": [\r\n        {\r\n            \"id\": 2,\r\n            \"body\": \"some comment\",\r\n            \"postId\": 1\r\n        }\r\n    ],\r\n    \"profile\": {\r\n        \"name\": \"typicode\"\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/db.json b/db.json
+--- a/db.json	(revision e549fa94c399d3d5475414bd6f1fdf512e19579f)
++++ b/db.json	(date 1670679617055)
+@@ -1,68 +1,77 @@
+ {
+-    "milkteax": [
+-        {
+-            "id": 1,
+-            "title": "Trà sữa",
+-            "img": "../../img/milk-tea/1.png",
+-            "status": 2
+-        },
+-        {
+-            "id": 2,
+-            "title": "Trà vải",
+-            "img": "../../img/milk-tea/2.png",
+-            "status": 1
+-        },
+-        {
+-            "id": 3,
+-            "title": "Sữa chua xoài",
+-            "img": "../../img/milk-tea/3.png",
+-            "status": 1
+-        },
+-        {
+-            "id": 4,
+-            "title": "Detox hoa quả",
+-            "img": "../../img/milk-tea/4.png",
+-            "status": 1
+-        },
+-        {
+-            "id": 5,
+-            "title": "Trà dâu",
+-            "img": "../../img/milk-tea/5.png",
+-            "status": 1
+-        },
+-        {
+-            "id": 6,
+-            "title": "Soda chanh",
+-            "img": "../../img/milk-tea/6.png",
+-            "status": 1
+-        },
+-        {
+-            "id": 7,
+-            "title": "Cà phê sữa",
+-            "img": "../../img/milk-tea/7.png",
+-            "status": 1
+-        },
+-        {
+-            "id": 8,
+-            "title": "Nước cam",
+-            "img": "../../img/milk-tea/8.png",
+-            "status": 1
+-        },
+-        {
+-            "id": 9,
+-            "title": "Trà đào cam sả",
+-            "img": "../../img/milk-tea/9.png",
+-            "status": 1
+-        }
+-    ],
+-    "comments": [
+-        {
+-            "id": 2,
+-            "body": "some comment",
+-            "postId": 1
+-        }
+-    ],
+-    "profile": {
+-        "name": "typicode"
+-    }
++  "milkteas": [
++    {
++      "id": 1,
++      "title": "Trà sữa",
++      "img": "../../img/milk-tea/1.png",
++      "price": "10000",
++      "status": 1
++    },
++    {
++      "id": 2,
++      "title": "Trà vải",
++      "img": "../../img/milk-tea/2.png",
++      "price": "10000",
++      "status": 1
++    },
++    {
++      "id": 3,
++      "title": "Sữa chua xoài",
++      "img": "../../img/milk-tea/3.png",
++      "price": "10000",
++      "status": 1
++    },
++    {
++      "id": 4,
++      "title": "Detox hoa quả",
++      "img": "../../img/milk-tea/4.png",
++      "price": "10000",
++      "status": 1
++    },
++    {
++      "id": 5,
++      "title": "Trà dâu",
++      "img": "../../img/milk-tea/5.png",
++      "price": "10000",
++      "status": 1
++    },
++    {
++      "id": 6,
++      "title": "Soda chanh",
++      "img": "../../img/milk-tea/6.png",
++      "price": "10000",
++      "status": 1
++    },
++    {
++      "id": 7,
++      "title": "Cà phê sữa",
++      "img": "../../img/milk-tea/7.png",
++      "price": "10000",
++      "status": 1
++    },
++    {
++      "id": 8,
++      "title": "Nước cam",
++      "img": "../../img/milk-tea/8.png",
++      "price": "10000",
++      "status": 1
++    },
++    {
++      "id": 9,
++      "title": "Trà đào cam sả",
++      "img": "../../img/milk-tea/9.png",
++      "price": "10000",
++      "status": 1
++    }
++  ],
++  "comments": [
++    {
++      "id": 2,
++      "body": "some comment",
++      "postId": 1
++    }
++  ],
++  "profile": {
++    "name": "typicode"
++  }
+ }
+\ No newline at end of file
+Index: src/hoa-don/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Hóa đơn</title>\r\n    <link rel=\"stylesheet\" href=\"../../dist/style.css\" />\r\n    <link rel=\"stylesheet\" href=\"../../css/style.css\" />\r\n    <script\r\n      src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js\"\r\n      integrity=\"sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==\"\r\n      crossorigin=\"anonymous\"\r\n      referrerpolicy=\"no-referrer\"></script>\r\n  </head>\r\n\r\n  <body>\r\n    <div class=\"modal-add-ban w-full h-full z-[10] absolute\">\r\n      <div\r\n        class=\"z-[5] absolute w-full h-full\"\r\n        onclick=\"$('.modal-add-ban').toggleClass('show-modal')\"></div>\r\n      <div\r\n        class=\"z-[10] relative flex flex-col justify-center items-center gap-11 max-w-[300px] md:max-w-[550px] mx-auto bg-[#FFF] rounded-2xl p-5 top-[150px]\">\r\n        <h2 class=\"text-[#4F4F4F] text-3xl\">Thêm bàn</h2>\r\n        <div class=\"flex flex-col justify-center items-center w-full gap-6\">\r\n          <div class=\"flex flex-col gap-3 w-full\">\r\n            <span class=\"text-[#828282] font-medium text-xl\">Mã bàn</span>\r\n            <input\r\n              type=\"text\"\r\n              placeholder=\"Nhập mã bàn\"\r\n              class=\"outline-none px-5 py-6 w-full bg-[#E0E0E0] rounded-xl text-[#BDBDBD]\" />\r\n          </div>\r\n          <div class=\"flex flex-col gap-3 w-full\">\r\n            <span class=\"text-[#828282] font-medium text-xl\">Mã giá bàn</span>\r\n            <input\r\n              type=\"text\"\r\n              placeholder=\"Nhập mã giá bàn\"\r\n              class=\"outline-none px-5 py-6 w-full bg-[#E0E0E0] rounded-xl text-[#BDBDBD]\" />\r\n          </div>\r\n        </div>\r\n        <button\r\n          class=\"uppercase font-bold text-[#FFF] bg-primary rounded-xl outline-none py-4 w-full\">\r\n          Cập nhập\r\n        </button>\r\n      </div>\r\n    </div>\r\n    <header class=\"bg-[#FFF] shadow-lg py-[20px] md:py-0 z-[6]\">\r\n      <nav\r\n        class=\"flex justify-center md:justify-between items-center xl:max-w-[1440px] mx-auto px-[20px] xl:px-0\">\r\n        <div class=\"w-[111px] lg:w-[177px]\">\r\n          <div class=\"w-[110px] lg:w-[176px] lg:h-[47px] h-full\">\r\n            <a href=\"../\"\r\n              ><img src=\"../../img/logo.png\" alt=\"\" class=\"w-full h-full\"\r\n            /></a>\r\n          </div>\r\n        </div>\r\n        <div class=\"max-w-[380px] relative hidden lg:block\">\r\n          <input\r\n            type=\"text\"\r\n            class=\"w-full bg-[#F7F7FC] rounded-xl outline-none focus:border-primary border-[1px] border-[#F7F7FC] transition-all duration-200 p-4 px-16 font-medium\"\r\n            placeholder=\"Tìm kiếm trên Wiscafe\" />\r\n          <svg\r\n            width=\"24\"\r\n            height=\"24\"\r\n            class=\"absolute top-[16px] left-[20px]\"\r\n            viewBox=\"0 0 24 24\"\r\n            fill=\"none\"\r\n            xmlns=\"http://www.w3.org/2000/svg\">\r\n            <path\r\n              d=\"M11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20Z\"\r\n              stroke=\"#6E7191\"\r\n              stroke-width=\"2\"\r\n              stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\" />\r\n            <path\r\n              d=\"M22 22L18 18\"\r\n              stroke=\"#6E7191\"\r\n              stroke-width=\"2\"\r\n              stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\" />\r\n          </svg>\r\n        </div>\r\n        <ul class=\"tab-menu md:flex justify-center items-center hidden\">\r\n          <li class=\"active px-10 py-[20px]\">\r\n            <a href=\"./\" class=\"w-[48px] h-[48px]\"\r\n              ><svg\r\n                width=\"32\"\r\n                height=\"32\"\r\n                viewBox=\"0 0 32 32\"\r\n                fill=\"none\"\r\n                xmlns=\"http://www.w3.org/2000/svg\">\r\n                <path\r\n                  d=\"M2.66663 12.668C2.66663 11.7145 3.11994 10.8177 3.88778 10.2523L16 1.33331L28.1121 10.2523C28.88 10.8177 29.3333 11.7145 29.3333 12.668V28.1666C29.3333 29.5474 28.214 30.6666 26.8333 30.6666H21C20.4477 30.6666 20 30.2189 20 29.6666V21.1666C20 20.8905 19.7761 20.6666 19.5 20.6666H12.5C12.2238 20.6666 12 20.8905 12 21.1666V29.6666C12 30.2189 11.5522 30.6666 11 30.6666H5.16663C3.78591 30.6666 2.66663 29.5474 2.66663 28.1666V12.668Z\"\r\n                  stroke=\"#6E7191\"\r\n                  stroke-width=\"2\"\r\n                  stroke-linecap=\"round\"\r\n                  stroke-linejoin=\"round\" />\r\n              </svg>\r\n            </a>\r\n          </li>\r\n          <li class=\"px-10 py-[20px]\">\r\n            <a href=\"#\" class=\"w-[48px] h-[48px]\"\r\n              ><svg\r\n                width=\"32\"\r\n                height=\"32\"\r\n                viewBox=\"0 0 37 37\"\r\n                fill=\"none\"\r\n                xmlns=\"http://www.w3.org/2000/svg\">\r\n                <path\r\n                  d=\"M26.7778 17.0193C26.7778 14.5388 25.7476 12.16 23.9139 10.406C22.0802 8.65203 19.5932 7.66667 17 7.66667C14.4068 7.66667 11.9198 8.65203 10.0861 10.406C8.25238 12.16 7.22222 14.5388 7.22222 17.0193C7.22222 25.3554 3.59053 29.1425 1.87622 30.4658C1.66748 30.627 1.79337 31.0483 2.05706 31.0483H11.0962C11.2132 31.0483 11.3151 31.1287 11.3482 31.2408C11.6064 32.1148 12.9075 35.6667 17 35.6667C21.0925 35.6667 22.3936 32.1148 22.6518 31.2408C22.6849 31.1287 22.7868 31.0483 22.9038 31.0483H31.9429C32.2066 31.0483 32.3325 30.627 32.1238 30.4658C30.4095 29.1425 26.7778 25.3554 26.7778 17.0193Z\"\r\n                  stroke=\"#6E7191\"\r\n                  stroke-width=\"2\"\r\n                  stroke-linecap=\"round\"\r\n                  stroke-linejoin=\"round\" />\r\n                <circle\r\n                  cx=\"27\"\r\n                  cy=\"10\"\r\n                  r=\"9\"\r\n                  fill=\"#E0AF7E\"\r\n                  stroke=\"#E0AF7E\"\r\n                  stroke-width=\"2\" />\r\n              </svg>\r\n            </a>\r\n          </li>\r\n          <li class=\"px-10 py-[20px]\">\r\n            <a href=\"../dang-nhap/index.html\">\r\n              <div class=\"w-[32px] h-[32px] rounded-full\">\r\n                <img\r\n                  src=\"../../img/avt.png\"\r\n                  alt=\"\"\r\n                  class=\"w-full h-full rounded-full\" />\r\n              </div>\r\n            </a>\r\n          </li>\r\n        </ul>\r\n      </nav>\r\n    </header>\r\n    <div class=\"bg-[#FBF7F2]\">\r\n      <div\r\n        class=\"grid md:grid-cols-1 lg:grid-cols-12 px-[10px] md:px-[20px] xl:max-w-[1440px] xl:mx-auto py-[30px]\">\r\n        <div class=\"col-span-3\"></div>\r\n        <div class=\"col-span-6\">\r\n          <h1 class=\"font-bold text-title text-4xl\">Trang chủ</h1>\r\n        </div>\r\n        <div class=\"col-span-3\"></div>\r\n      </div>\r\n      <div\r\n        class=\"grid grid-cols-1 md:grid-cols-12 px-[10px] md:px-[20px] xl:max-w-[1440px] xl:mx-auto gap-y-5 md:gap-y-0\">\r\n        <div class=\"col-span-12 md:col-span-4 lg:col-span-3\">\r\n          <ul class=\"tab-menu-side md:pr-8 xl:pr-16 flex flex-col gap-6\">\r\n            <li class=\"border-2 border-[#B38C64] rounded-xl text-center py-4\">\r\n              <a\r\n                href=\"../index.html\"\r\n                class=\"text-primary font-semibold cursor-pointer\"\r\n                >Quản lý bàn</a\r\n              >\r\n            </li>\r\n            <li class=\"border-2 border-[#B38C64] rounded-xl text-center py-4\">\r\n              <a\r\n                href=\"../menu/index.html\"\r\n                class=\"text-primary font-semibold cursor-pointer\"\r\n                >Menu đồ uống\r\n              </a>\r\n            </li>\r\n            <li class=\"border-2 border-[#B38C64] rounded-xl text-center py-4\">\r\n              <a\r\n                href=\"../doanh-thu/index.html\"\r\n                class=\"text-primary font-semibold cursor-pointer\"\r\n                >Doanh thu</a\r\n              >\r\n            </li>\r\n            <li\r\n              class=\"active border-2 border-[#B38C64] rounded-xl text-center py-4\">\r\n              <a\r\n                href=\"../hoa-don/index.html\"\r\n                class=\"text-primary font-semibold cursor-pointer\"\r\n                >Hóa đơn</a\r\n              >\r\n            </li>\r\n            <li class=\"border-2 border-[#B38C64] rounded-xl text-center py-4\">\r\n              <a\r\n                href=\"../quan-ly-nhan-vien/index.html\"\r\n                class=\"text-primary font-semibold cursor-pointer\"\r\n                >Quản lý nhân viên</a\r\n              >\r\n            </li>\r\n          </ul>\r\n        </div>\r\n        <div class=\"md:col-span-8 lg:col-span-6\">\r\n          <div class=\"flex flex-col gap-8\">\r\n            <div class=\"bg-[#FFF] rounded-xl p-2 md:p-5\">\r\n              <div class=\"flex flex-col gap-4\">\r\n                <div\r\n                  class=\"w-full relative flex justify-center items-center flex-wrap xl:flex-nowrap gap-3\">\r\n                  <input\r\n                    type=\"text\"\r\n                    class=\"w-full bg-[#F7F7FC] rounded-xl outline-none focus:border-primary border-[1px] border-[#F7F7FC] transition-all duration-200 p-4 px-16 font-medium\"\r\n                    placeholder=\"Tìm kiếm trên Wiscafe\" />\r\n                  <svg\r\n                    width=\"24\"\r\n                    height=\"24\"\r\n                    class=\"absolute top-[16px] left-[20px]\"\r\n                    viewBox=\"0 0 24 24\"\r\n                    fill=\"none\"\r\n                    xmlns=\"http://www.w3.org/2000/svg\">\r\n                    <path\r\n                      d=\"M11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20Z\"\r\n                      stroke=\"#6E7191\"\r\n                      stroke-width=\"2\"\r\n                      stroke-linecap=\"round\"\r\n                      stroke-linejoin=\"round\" />\r\n                    <path\r\n                      d=\"M22 22L18 18\"\r\n                      stroke=\"#6E7191\"\r\n                      stroke-width=\"2\"\r\n                      stroke-linecap=\"round\"\r\n                      stroke-linejoin=\"round\" />\r\n                  </svg>\r\n                  <div class=\"w-[200px] text-center\">\r\n                    <button\r\n                      class=\"bg-[#F5E7D8] rounded-xl font-medium outline-none p-4 text-brown\"\r\n                      onclick=\"$('.modal-add-ban').toggleClass('show-modal')\">\r\n                      Thêm bàn +\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"flex flex-col justify-start items-start gap-6\">\r\n              <h2 class=\"text-[#333333] font-semibold text-lg\">\r\n                Danh sách sản phẩm đã bán ra\r\n              </h2>\r\n              <ul class=\"tab-date flex justify-between items-center w-full\">\r\n                <li class=\"active w-full text-center py-2 rounded-xl bg-[#FFF]\">\r\n                  <a href=\"#\">Theo ngày</a>\r\n                </li>\r\n                <li class=\"w-full text-center py-2 rounded-xl bg-[#FFF]\">\r\n                  <a href=\"#\">Theo tháng</a>\r\n                </li>\r\n              </ul>\r\n            </div>\r\n            <div class=\"bg-[#FFF] rounded-xl\">\r\n              <div\r\n                class=\"flex justify-around items-center py-6 border-b-[1px] border-[#E0E0E0] flex-wrap gap-4\">\r\n                <span class=\"font-semibold text-sm text-[#BDBDBD]\"\r\n                  >Số thứ tự</span\r\n                >\r\n                <span class=\"font-semibold text-sm text-[#BDBDBD]\"\r\n                  >Tên sản phẩm</span\r\n                >\r\n                <span class=\"font-semibold text-sm text-[#BDBDBD]\"\r\n                  >Số lượng</span\r\n                >\r\n                <span class=\"font-semibold text-sm text-[#BDBDBD]\"\r\n                  >Tổng tiền</span\r\n                >\r\n              </div>\r\n              <div class=\"grid grid-cols-1 gap-y-4 px-4 py-4\">\r\n                <div\r\n                  class=\"flex justify-between items-start gap-4 py-4 px-2 md:px-8 bg-[#FBF7F2] rounded-xl\">\r\n                  <span class=\"font-semibold text-[#333333]\">1</span>\r\n                  <span class=\"font-semibold text-[#333333] w-[120px]\"\r\n                    >Cà phê sữa</span\r\n                  >\r\n                  <span class=\"font-semibold text-[#333333]\">3</span>\r\n                  <div class=\"flex flex-col justify-end items-end gap-3\">\r\n                    <span class=\"font-semibold text-[#333333]\">60.000</span>\r\n                    <button\r\n                      class=\"bg-[#E0AF7E] outline-none rounded-xl text-[#FFF] font-semibold w-full py-3 px-10\">\r\n                      Xóa\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex justify-between items-start gap-4 py-4 px-2 md:px-8 bg-[#FBF7F2] rounded-xl\">\r\n                  <span class=\"font-semibold text-[#333333]\">2</span>\r\n                  <span class=\"font-semibold text-[#333333] w-[120px]\"\r\n                    >Trà đào cam sả</span\r\n                  >\r\n                  <span class=\"font-semibold text-[#333333]\">1</span>\r\n                  <div class=\"flex flex-col justify-end items-end gap-3\">\r\n                    <span class=\"font-semibold text-[#333333]\">100.000</span>\r\n                    <button\r\n                      class=\"bg-[#E0AF7E] outline-none rounded-xl text-[#FFF] font-semibold w-full py-3 px-10\">\r\n                      Xóa\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex justify-between items-start gap-4 py-4 px-2 md:px-8 bg-[#FBF7F2] rounded-xl\">\r\n                  <span class=\"font-semibold text-[#333333]\">3</span>\r\n                  <span class=\"font-semibold text-[#333333] w-[120px]\"\r\n                    >Trà sữa</span\r\n                  >\r\n                  <span class=\"font-semibold text-[#333333]\">5</span>\r\n                  <div class=\"flex flex-col justify-end items-end gap-3\">\r\n                    <span class=\"font-semibold text-[#333333]\">200.000</span>\r\n                    <button\r\n                      class=\"bg-[#E0AF7E] outline-none rounded-xl text-[#FFF] font-semibold w-full py-3 px-10\">\r\n                      Xóa\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex justify-between items-start gap-4 py-4 px-2 md:px-8 bg-[#FBF7F2] rounded-xl\">\r\n                  <span class=\"font-semibold text-[#333333]\">4</span>\r\n                  <span class=\"font-semibold text-[#333333] w-[120px]\"\r\n                    >Soda chanh</span\r\n                  >\r\n                  <span class=\"font-semibold text-[#333333]\">0</span>\r\n                  <div class=\"flex flex-col justify-end items-end gap-3\">\r\n                    <span class=\"font-semibold text-[#333333]\">500.000</span>\r\n                    <button\r\n                      class=\"bg-[#E0AF7E] outline-none rounded-xl text-[#FFF] font-semibold w-full py-3 px-10\">\r\n                      Xóa\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n              <div class=\"flex justify-end items-center p-12\">\r\n                <span class=\"text-primary font-semibold\"\r\n                  >Tổng cộng: 3.000.000 VNĐ</span\r\n                >\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"col-span-12 lg:col-span-3\">\r\n          <h3\r\n            class=\"text-title font-semibold text-xl py-5 lg:pt-0 lg:pb-5 lg:pl-8 xl:pl-16\">\r\n            Nhận ưu đãi sale lớn ở đây\r\n          </h3>\r\n          <div\r\n            class=\"grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-col gap-5 lg:pl-8 xl:pl-16\">\r\n            <div class=\"bg-[#FFF] rounded-xl shadow-xl p-2\">\r\n              <img src=\"../../img/banner1.png\" alt=\"\" class=\"w-full h-full\" />\r\n            </div>\r\n            <div class=\"bg-[#FFF] rounded-xl shadow-xl p-2\">\r\n              <img src=\"../../img/banner2.png\" alt=\"\" class=\"w-full h-full\" />\r\n            </div>\r\n            <div class=\"bg-[#FFF] rounded-xl shadow-xl p-2\">\r\n              <img src=\"../../img/banner3.png\" alt=\"\" class=\"w-full h-full\" />\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <script src=\"../../js/main.js\"></script>\r\n  </body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/hoa-don/index.html b/src/hoa-don/index.html
+--- a/src/hoa-don/index.html	(revision e549fa94c399d3d5475414bd6f1fdf512e19579f)
++++ b/src/hoa-don/index.html	(date 1670676798535)
+@@ -188,47 +188,9 @@
+         </div>
+         <div class="md:col-span-8 lg:col-span-6">
+           <div class="flex flex-col gap-8">
+-            <div class="bg-[#FFF] rounded-xl p-2 md:p-5">
+-              <div class="flex flex-col gap-4">
+-                <div
+-                  class="w-full relative flex justify-center items-center flex-wrap xl:flex-nowrap gap-3">
+-                  <input
+-                    type="text"
+-                    class="w-full bg-[#F7F7FC] rounded-xl outline-none focus:border-primary border-[1px] border-[#F7F7FC] transition-all duration-200 p-4 px-16 font-medium"
+-                    placeholder="Tìm kiếm trên Wiscafe" />
+-                  <svg
+-                    width="24"
+-                    height="24"
+-                    class="absolute top-[16px] left-[20px]"
+-                    viewBox="0 0 24 24"
+-                    fill="none"
+-                    xmlns="http://www.w3.org/2000/svg">
+-                    <path
+-                      d="M11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20Z"
+-                      stroke="#6E7191"
+-                      stroke-width="2"
+-                      stroke-linecap="round"
+-                      stroke-linejoin="round" />
+-                    <path
+-                      d="M22 22L18 18"
+-                      stroke="#6E7191"
+-                      stroke-width="2"
+-                      stroke-linecap="round"
+-                      stroke-linejoin="round" />
+-                  </svg>
+-                  <div class="w-[200px] text-center">
+-                    <button
+-                      class="bg-[#F5E7D8] rounded-xl font-medium outline-none p-4 text-brown"
+-                      onclick="$('.modal-add-ban').toggleClass('show-modal')">
+-                      Thêm bàn +
+-                    </button>
+-                  </div>
+-                </div>
+-              </div>
+-            </div>
+             <div class="flex flex-col justify-start items-start gap-6">
+               <h2 class="text-[#333333] font-semibold text-lg">
+-                Danh sách sản phẩm đã bán ra
++                Danh sách sản phẩm đã đặt
+               </h2>
+               <ul class="tab-date flex justify-between items-center w-full">
+                 <li class="active w-full text-center py-2 rounded-xl bg-[#FFF]">
+@@ -255,72 +217,11 @@
+                   >Tổng tiền</span
+                 >
+               </div>
+-              <div class="grid grid-cols-1 gap-y-4 px-4 py-4">
+-                <div
+-                  class="flex justify-between items-start gap-4 py-4 px-2 md:px-8 bg-[#FBF7F2] rounded-xl">
+-                  <span class="font-semibold text-[#333333]">1</span>
+-                  <span class="font-semibold text-[#333333] w-[120px]"
+-                    >Cà phê sữa</span
+-                  >
+-                  <span class="font-semibold text-[#333333]">3</span>
+-                  <div class="flex flex-col justify-end items-end gap-3">
+-                    <span class="font-semibold text-[#333333]">60.000</span>
+-                    <button
+-                      class="bg-[#E0AF7E] outline-none rounded-xl text-[#FFF] font-semibold w-full py-3 px-10">
+-                      Xóa
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex justify-between items-start gap-4 py-4 px-2 md:px-8 bg-[#FBF7F2] rounded-xl">
+-                  <span class="font-semibold text-[#333333]">2</span>
+-                  <span class="font-semibold text-[#333333] w-[120px]"
+-                    >Trà đào cam sả</span
+-                  >
+-                  <span class="font-semibold text-[#333333]">1</span>
+-                  <div class="flex flex-col justify-end items-end gap-3">
+-                    <span class="font-semibold text-[#333333]">100.000</span>
+-                    <button
+-                      class="bg-[#E0AF7E] outline-none rounded-xl text-[#FFF] font-semibold w-full py-3 px-10">
+-                      Xóa
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex justify-between items-start gap-4 py-4 px-2 md:px-8 bg-[#FBF7F2] rounded-xl">
+-                  <span class="font-semibold text-[#333333]">3</span>
+-                  <span class="font-semibold text-[#333333] w-[120px]"
+-                    >Trà sữa</span
+-                  >
+-                  <span class="font-semibold text-[#333333]">5</span>
+-                  <div class="flex flex-col justify-end items-end gap-3">
+-                    <span class="font-semibold text-[#333333]">200.000</span>
+-                    <button
+-                      class="bg-[#E0AF7E] outline-none rounded-xl text-[#FFF] font-semibold w-full py-3 px-10">
+-                      Xóa
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex justify-between items-start gap-4 py-4 px-2 md:px-8 bg-[#FBF7F2] rounded-xl">
+-                  <span class="font-semibold text-[#333333]">4</span>
+-                  <span class="font-semibold text-[#333333] w-[120px]"
+-                    >Soda chanh</span
+-                  >
+-                  <span class="font-semibold text-[#333333]">0</span>
+-                  <div class="flex flex-col justify-end items-end gap-3">
+-                    <span class="font-semibold text-[#333333]">500.000</span>
+-                    <button
+-                      class="bg-[#E0AF7E] outline-none rounded-xl text-[#FFF] font-semibold w-full py-3 px-10">
+-                      Xóa
+-                    </button>
+-                  </div>
+-                </div>
+-              </div>
+-              <div class="flex justify-end items-center p-12">
+-                <span class="text-primary font-semibold"
+-                  >Tổng cộng: 3.000.000 VNĐ</span
+-                >
++              <div class="grid grid-cols-1 gap-y-4 px-4 py-4" id="hoa_don">
++                <!-- hoa-don.json -->
++              </div>
++              <div class="flex justify-end items-center p-12" id="sum_hoa_don">
++                <!-- tong-tien-hoa-don -->
+               </div>
+             </div>
+           </div>
+@@ -346,5 +247,6 @@
+       </div>
+     </div>
+     <script src="../../js/main.js"></script>
++    <script src="../../js/hoa-don.js"></script>
+   </body>
+ </html>
+Index: src/menu/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Menu đồ uống</title>\r\n    <link rel=\"stylesheet\" href=\"../../dist/style.css\" />\r\n    <link rel=\"stylesheet\" href=\"../../css/style.css\" />\r\n    <script\r\n      src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js\"\r\n      integrity=\"sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==\"\r\n      crossorigin=\"anonymous\"\r\n      referrerpolicy=\"no-referrer\"></script>\r\n  </head>\r\n\r\n  <body>\r\n    <div class=\"modal-add-ban w-full h-full z-[10] absolute\">\r\n      <div\r\n        class=\"z-[5] absolute w-full h-full\"\r\n        onclick=\"$('.modal-add-ban').toggleClass('show-modal')\"></div>\r\n      <div\r\n        class=\"z-[10] relative flex flex-col justify-center items-center gap-11 max-w-[300px] md:max-w-[550px] mx-auto bg-[#FFF] rounded-2xl p-5 top-[150px]\">\r\n        <h2 class=\"text-[#4F4F4F] text-3xl\">Thêm bàn</h2>\r\n        <div class=\"flex flex-col justify-center items-center w-full gap-6\">\r\n          <div class=\"flex flex-col gap-3 w-full\">\r\n            <span class=\"text-[#828282] font-medium text-xl\">Mã bàn</span>\r\n            <input\r\n              type=\"text\"\r\n              placeholder=\"Nhập mã bàn\"\r\n              class=\"outline-none px-5 py-6 w-full bg-[#E0E0E0] rounded-xl text-[#BDBDBD]\" />\r\n          </div>\r\n          <div class=\"flex flex-col gap-3 w-full\">\r\n            <span class=\"text-[#828282] font-medium text-xl\">Mã giá bàn</span>\r\n            <input\r\n              type=\"text\"\r\n              placeholder=\"Nhập mã giá bàn\"\r\n              class=\"outline-none px-5 py-6 w-full bg-[#E0E0E0] rounded-xl text-[#BDBDBD]\" />\r\n          </div>\r\n        </div>\r\n        <button\r\n          class=\"uppercase font-bold text-[#FFF] bg-primary rounded-xl outline-none py-4 w-full\">\r\n          Cập nhập\r\n        </button>\r\n      </div>\r\n    </div>\r\n    <header class=\"bg-[#FFF] shadow-lg py-[20px] md:py-0 z-[6]\">\r\n      <nav\r\n        class=\"flex justify-center md:justify-between items-center xl:max-w-[1440px] mx-auto px-[20px] xl:px-0\">\r\n        <div class=\"w-[111px] lg:w-[177px]\">\r\n          <div class=\"w-[110px] lg:w-[176px] lg:h-[47px] h-full\">\r\n            <a href=\"../\"\r\n              ><img src=\"../../img/logo.png\" alt=\"\" class=\"w-full h-full\"\r\n            /></a>\r\n          </div>\r\n        </div>\r\n        <div class=\"max-w-[380px] relative hidden lg:block\">\r\n          <input\r\n            type=\"text\"\r\n            class=\"w-full bg-[#F7F7FC] rounded-xl outline-none focus:border-primary border-[1px] border-[#F7F7FC] transition-all duration-200 p-4 px-16 font-medium\"\r\n            placeholder=\"Tìm kiếm trên Wiscafe\" />\r\n          <svg\r\n            width=\"24\"\r\n            height=\"24\"\r\n            class=\"absolute top-[16px] left-[20px]\"\r\n            viewBox=\"0 0 24 24\"\r\n            fill=\"none\"\r\n            xmlns=\"http://www.w3.org/2000/svg\">\r\n            <path\r\n              d=\"M11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20Z\"\r\n              stroke=\"#6E7191\"\r\n              stroke-width=\"2\"\r\n              stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\" />\r\n            <path\r\n              d=\"M22 22L18 18\"\r\n              stroke=\"#6E7191\"\r\n              stroke-width=\"2\"\r\n              stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\" />\r\n          </svg>\r\n        </div>\r\n        <ul class=\"tab-menu md:flex justify-center items-center hidden\">\r\n          <li class=\"active px-10 py-[20px]\">\r\n            <a href=\"./\" class=\"w-[48px] h-[48px]\"\r\n              ><svg\r\n                width=\"32\"\r\n                height=\"32\"\r\n                viewBox=\"0 0 32 32\"\r\n                fill=\"none\"\r\n                xmlns=\"http://www.w3.org/2000/svg\">\r\n                <path\r\n                  d=\"M2.66663 12.668C2.66663 11.7145 3.11994 10.8177 3.88778 10.2523L16 1.33331L28.1121 10.2523C28.88 10.8177 29.3333 11.7145 29.3333 12.668V28.1666C29.3333 29.5474 28.214 30.6666 26.8333 30.6666H21C20.4477 30.6666 20 30.2189 20 29.6666V21.1666C20 20.8905 19.7761 20.6666 19.5 20.6666H12.5C12.2238 20.6666 12 20.8905 12 21.1666V29.6666C12 30.2189 11.5522 30.6666 11 30.6666H5.16663C3.78591 30.6666 2.66663 29.5474 2.66663 28.1666V12.668Z\"\r\n                  stroke=\"#6E7191\"\r\n                  stroke-width=\"2\"\r\n                  stroke-linecap=\"round\"\r\n                  stroke-linejoin=\"round\" />\r\n              </svg>\r\n            </a>\r\n          </li>\r\n          <li class=\"px-10 py-[20px]\">\r\n            <a href=\"#\" class=\"w-[48px] h-[48px]\"\r\n              ><svg\r\n                width=\"32\"\r\n                height=\"32\"\r\n                viewBox=\"0 0 37 37\"\r\n                fill=\"none\"\r\n                xmlns=\"http://www.w3.org/2000/svg\">\r\n                <path\r\n                  d=\"M26.7778 17.0193C26.7778 14.5388 25.7476 12.16 23.9139 10.406C22.0802 8.65203 19.5932 7.66667 17 7.66667C14.4068 7.66667 11.9198 8.65203 10.0861 10.406C8.25238 12.16 7.22222 14.5388 7.22222 17.0193C7.22222 25.3554 3.59053 29.1425 1.87622 30.4658C1.66748 30.627 1.79337 31.0483 2.05706 31.0483H11.0962C11.2132 31.0483 11.3151 31.1287 11.3482 31.2408C11.6064 32.1148 12.9075 35.6667 17 35.6667C21.0925 35.6667 22.3936 32.1148 22.6518 31.2408C22.6849 31.1287 22.7868 31.0483 22.9038 31.0483H31.9429C32.2066 31.0483 32.3325 30.627 32.1238 30.4658C30.4095 29.1425 26.7778 25.3554 26.7778 17.0193Z\"\r\n                  stroke=\"#6E7191\"\r\n                  stroke-width=\"2\"\r\n                  stroke-linecap=\"round\"\r\n                  stroke-linejoin=\"round\" />\r\n                <circle\r\n                  cx=\"27\"\r\n                  cy=\"10\"\r\n                  r=\"9\"\r\n                  fill=\"#E0AF7E\"\r\n                  stroke=\"#E0AF7E\"\r\n                  stroke-width=\"2\" />\r\n              </svg>\r\n            </a>\r\n          </li>\r\n          <li class=\"px-10 py-[20px]\">\r\n            <a href=\"../dang-nhap/index.html\">\r\n              <div class=\"w-[32px] h-[32px] rounded-full\">\r\n                <img\r\n                  src=\"../../img/avt.png\"\r\n                  alt=\"\"\r\n                  class=\"w-full h-full rounded-full\" />\r\n              </div>\r\n            </a>\r\n          </li>\r\n        </ul>\r\n      </nav>\r\n    </header>\r\n    <div class=\"bg-[#FBF7F2]\">\r\n      <div\r\n        class=\"grid md:grid-cols-1 lg:grid-cols-12 px-[10px] md:px-[20px] xl:max-w-[1440px] xl:mx-auto py-[30px]\">\r\n        <div class=\"col-span-3\"></div>\r\n        <div class=\"col-span-6\">\r\n          <h1 class=\"font-bold text-title text-4xl\">Trang chủ</h1>\r\n        </div>\r\n        <div class=\"col-span-3\"></div>\r\n      </div>\r\n      <div\r\n        class=\"grid grid-cols-1 md:grid-cols-12 px-[10px] md:px-[20px] xl:max-w-[1440px] xl:mx-auto gap-y-5 md:gap-y-0\">\r\n        <div class=\"col-span-12 md:col-span-4 lg:col-span-3\">\r\n          <ul class=\"tab-menu-side md:pr-8 xl:pr-16 flex flex-col gap-6\">\r\n            <li class=\"border-2 border-[#B38C64] rounded-xl text-center py-4\">\r\n              <a href=\"../\" class=\"text-primary font-semibold cursor-pointer\"\r\n                >Quản lý bàn</a\r\n              >\r\n            </li>\r\n            <li\r\n              class=\"active border-2 border-[#B38C64] rounded-xl text-center py-4\">\r\n              <a href=\"./\" class=\"text-primary font-semibold cursor-pointer\"\r\n                >Menu đồ uống\r\n              </a>\r\n            </li>\r\n            <li class=\"border-2 border-[#B38C64] rounded-xl text-center py-4\">\r\n              <a\r\n                href=\"../doanh-thu/index.html\"\r\n                class=\"text-primary font-semibold cursor-pointer\"\r\n                >Doanh thu</a\r\n              >\r\n            </li>\r\n            <li class=\"border-2 border-[#B38C64] rounded-xl text-center py-4\">\r\n              <a\r\n                href=\"../hoa-don\"\r\n                class=\"text-primary font-semibold cursor-pointer\"\r\n                >Hóa đơn</a\r\n              >\r\n            </li>\r\n            <li class=\"border-2 border-[#B38C64] rounded-xl text-center py-4\">\r\n              <a\r\n                href=\"../quan-ly-nhan-vien\"\r\n                class=\"text-primary font-semibold cursor-pointer\"\r\n                >Quản lý nhân viên</a\r\n              >\r\n            </li>\r\n          </ul>\r\n        </div>\r\n        <div class=\"md:col-span-8 lg:col-span-6\">\r\n          <div class=\"flex flex-col gap-8\">\r\n            <div class=\"bg-[#FFF] rounded-xl p-2 md:p-5\">\r\n              <div class=\"flex flex-col gap-4\">\r\n                <div\r\n                  class=\"w-full relative flex justify-center items-center flex-wrap xl:flex-nowrap gap-3\">\r\n                  <input\r\n                    type=\"text\"\r\n                    class=\"w-full bg-[#F7F7FC] rounded-xl outline-none focus:border-primary border-[1px] border-[#F7F7FC] transition-all duration-200 p-4 px-16 font-medium\"\r\n                    placeholder=\"Tìm kiếm trên Wiscafe\" />\r\n                  <svg\r\n                    width=\"24\"\r\n                    height=\"24\"\r\n                    class=\"absolute top-[16px] left-[20px]\"\r\n                    viewBox=\"0 0 24 24\"\r\n                    fill=\"none\"\r\n                    xmlns=\"http://www.w3.org/2000/svg\">\r\n                    <path\r\n                      d=\"M11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20Z\"\r\n                      stroke=\"#6E7191\"\r\n                      stroke-width=\"2\"\r\n                      stroke-linecap=\"round\"\r\n                      stroke-linejoin=\"round\" />\r\n                    <path\r\n                      d=\"M22 22L18 18\"\r\n                      stroke=\"#6E7191\"\r\n                      stroke-width=\"2\"\r\n                      stroke-linecap=\"round\"\r\n                      stroke-linejoin=\"round\" />\r\n                  </svg>\r\n                  <div class=\"w-[200px] text-center\">\r\n                    <button\r\n                      class=\"bg-[#F5E7D8] rounded-xl font-medium outline-none p-4 text-brown\"\r\n                      onclick=\"$('.modal-add-ban').toggleClass('show-modal')\">\r\n                      Thêm bàn +\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div class=\"flex justify-between items-center flex-wrap gap-2\">\r\n                  <div class=\"flex justify-start items-center gap-2\">\r\n                    <input type=\"radio\" checked />\r\n                    <span class=\"text-title font-semibold\">Tất cả</span>\r\n                  </div>\r\n                  <div class=\"flex justify-start items-center gap-2\">\r\n                    <input type=\"radio\" />\r\n                    <span class=\"text-title font-semibold\"\r\n                      >Bàn đã có khách ngồi</span\r\n                    >\r\n                  </div>\r\n                  <div class=\"flex justify-start items-center gap-2\">\r\n                    <input type=\"radio\" />\r\n                    <span class=\"text-title font-semibold\">Bàn đặt trước</span>\r\n                  </div>\r\n                  <div class=\"flex justify-start items-center gap-2\">\r\n                    <input type=\"radio\" />\r\n                    <span class=\"text-title font-semibold\">Bàn trống</span>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n            <div class=\"bg-[#FFF] rounded-xl p-2 md:p-5\">\r\n              <div class=\"grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6\">\r\n                <div\r\n                  class=\"flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]\">\r\n                  <div class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\">\r\n                    <img\r\n                      src=\"../../img/milk-tea/1.png\"\r\n                      alt=\"\"\r\n                      class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\" />\r\n                  </div>\r\n                  <h2 class=\"font-semibold text-tile\">Trà sữa</h2>\r\n\r\n                  <div class=\"w-full px-[10px] py-[20px]\">\r\n                    <button\r\n                      onclick=\"oderMilktea()\"\r\n                      class=\"bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]\">\r\n                      Đặt trước\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]\">\r\n                  <div class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\">\r\n                    <img\r\n                      src=\"../../img/milk-tea/2.png\"\r\n                      alt=\"\"\r\n                      class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\" />\r\n                  </div>\r\n                  <h2 class=\"font-semibold text-tile\">Trà sữa</h2>\r\n                  <div class=\"w-full px-[10px] py-[20px]\">\r\n                    <button\r\n                      class=\"bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]\">\r\n                      Đặt trước\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]\">\r\n                  <div class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\">\r\n                    <img\r\n                      src=\"../../img/milk-tea/3.png\"\r\n                      alt=\"\"\r\n                      class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\" />\r\n                  </div>\r\n                  <h2 class=\"font-semibold text-tile\">Trà sữa</h2>\r\n                  <div class=\"w-full px-[10px] py-[20px]\">\r\n                    <button\r\n                      class=\"bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]\">\r\n                      Đặt trước\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]\">\r\n                  <div class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\">\r\n                    <img\r\n                      src=\"../../img/milk-tea/4.png\"\r\n                      alt=\"\"\r\n                      class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\" />\r\n                  </div>\r\n                  <h2 class=\"font-semibold text-tile\">Trà sữa</h2>\r\n                  <div class=\"w-full px-[10px] py-[20px]\">\r\n                    <button\r\n                      class=\"bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]\">\r\n                      Đặt trước\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]\">\r\n                  <div class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\">\r\n                    <img\r\n                      src=\"../../img/milk-tea/5.png\"\r\n                      alt=\"\"\r\n                      class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\" />\r\n                  </div>\r\n                  <h2 class=\"font-semibold text-tile\">Trà sữa</h2>\r\n                  <span class=\"text-[#6E7191] text-[11px] font-medium\"\r\n                    >(đã có người đặt)</span\r\n                  >\r\n                  <div class=\"w-full px-[10px] py-[20px]\">\r\n                    <button\r\n                      class=\"bg-[#F2F2F2] outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#BDBDBD]\">\r\n                      Đặt trước\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]\">\r\n                  <div class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\">\r\n                    <img\r\n                      src=\"../../img/milk-tea/6.png\"\r\n                      alt=\"\"\r\n                      class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\" />\r\n                  </div>\r\n                  <h2 class=\"font-semibold text-tile\">Trà sữa</h2>\r\n                  <div class=\"w-full px-[10px] py-[20px]\">\r\n                    <button\r\n                      class=\"bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]\">\r\n                      Đặt trước\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]\">\r\n                  <div class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\">\r\n                    <img\r\n                      src=\"../../img/milk-tea/7.png\"\r\n                      alt=\"\"\r\n                      class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\" />\r\n                  </div>\r\n                  <h2 class=\"font-semibold text-tile\">Trà sữa</h2>\r\n                  <div class=\"w-full px-[10px] py-[20px]\">\r\n                    <button\r\n                      class=\"bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]\">\r\n                      Đặt trước\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]\">\r\n                  <div class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\">\r\n                    <img\r\n                      src=\"../../img/milk-tea/8.png\"\r\n                      alt=\"\"\r\n                      class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\" />\r\n                  </div>\r\n                  <h2 class=\"font-semibold text-tile\">Trà sữa</h2>\r\n                  <div class=\"w-full px-[10px] py-[20px]\">\r\n                    <button\r\n                      class=\"bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]\">\r\n                      Đặt trước\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n                <div\r\n                  class=\"flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]\">\r\n                  <div class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\">\r\n                    <img\r\n                      src=\"../../img/milk-tea/9.png\"\r\n                      alt=\"\"\r\n                      class=\"w-full h-full rounded-tr-2xl rounded-tl-2xl\" />\r\n                  </div>\r\n                  <h2 class=\"font-semibold text-tile\">Trà sữa</h2>\r\n                  <div class=\"w-full px-[10px] py-[20px]\">\r\n                    <button\r\n                      class=\"bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]\">\r\n                      Đặt trước\r\n                    </button>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"col-span-12 lg:col-span-3\">\r\n          <h3\r\n            class=\"text-title font-semibold text-xl py-5 lg:pt-0 lg:pb-5 lg:pl-8 xl:pl-16\">\r\n            Nhận ưu đãi sale lớn ở đây\r\n          </h3>\r\n          <div\r\n            class=\"grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-col gap-5 lg:pl-8 xl:pl-16\">\r\n            <div class=\"bg-[#FFF] rounded-xl shadow-xl p-2\">\r\n              <img src=\"../../img/banner1.png\" alt=\"\" class=\"w-full h-full\" />\r\n            </div>\r\n            <div class=\"bg-[#FFF] rounded-xl shadow-xl p-2\">\r\n              <img src=\"../../img/banner2.png\" alt=\"\" class=\"w-full h-full\" />\r\n            </div>\r\n            <div class=\"bg-[#FFF] rounded-xl shadow-xl p-2\">\r\n              <img src=\"../../img/banner3.png\" alt=\"\" class=\"w-full h-full\" />\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <script src=\"../../js/main.js\"></script>\r\n    <script src=\"../../js/menu.js\"></script>\r\n  </body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/menu/index.html b/src/menu/index.html
+--- a/src/menu/index.html	(revision e549fa94c399d3d5475414bd6f1fdf512e19579f)
++++ b/src/menu/index.html	(date 1670676733054)
+@@ -21,13 +21,13 @@
+         onclick="$('.modal-add-ban').toggleClass('show-modal')"></div>
+       <div
+         class="z-[10] relative flex flex-col justify-center items-center gap-11 max-w-[300px] md:max-w-[550px] mx-auto bg-[#FFF] rounded-2xl p-5 top-[150px]">
+-        <h2 class="text-[#4F4F4F] text-3xl">Thêm bàn</h2>
++        <h2 class="text-[#4F4F4F] text-3xl">Thêm đồ uống</h2>
+         <div class="flex flex-col justify-center items-center w-full gap-6">
+           <div class="flex flex-col gap-3 w-full">
+-            <span class="text-[#828282] font-medium text-xl">Mã bàn</span>
++            <span class="text-[#828282] font-medium text-xl">Tên đồ uống</span>
+             <input
+               type="text"
+-              placeholder="Nhập mã bàn"
++              placeholder="Nhập tên đồ uống"
+               class="outline-none px-5 py-6 w-full bg-[#E0E0E0] rounded-xl text-[#BDBDBD]" />
+           </div>
+           <div class="flex flex-col gap-3 w-full">
+@@ -212,11 +212,11 @@
+                       stroke-linecap="round"
+                       stroke-linejoin="round" />
+                   </svg>
+-                  <div class="w-[200px] text-center">
++                  <div class="w-ta text-center">
+                     <button
+                       class="bg-[#F5E7D8] rounded-xl font-medium outline-none p-4 text-brown"
+                       onclick="$('.modal-add-ban').toggleClass('show-modal')">
+-                      Thêm bàn +
++                      Thêm đồ uống +
+                     </button>
+                   </div>
+                 </div>
+@@ -243,160 +243,16 @@
+               </div>
+             </div>
+             <div class="bg-[#FFF] rounded-xl p-2 md:p-5">
+-              <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6">
+-                <div
+-                  class="flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]">
+-                  <div class="w-full h-full rounded-tr-2xl rounded-tl-2xl">
+-                    <img
+-                      src="../../img/milk-tea/1.png"
+-                      alt=""
+-                      class="w-full h-full rounded-tr-2xl rounded-tl-2xl" />
+-                  </div>
+-                  <h2 class="font-semibold text-tile">Trà sữa</h2>
+-
+-                  <div class="w-full px-[10px] py-[20px]">
+-                    <button
+-                      onclick="oderMilktea()"
+-                      class="bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]">
+-                      Đặt trước
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]">
+-                  <div class="w-full h-full rounded-tr-2xl rounded-tl-2xl">
+-                    <img
+-                      src="../../img/milk-tea/2.png"
+-                      alt=""
+-                      class="w-full h-full rounded-tr-2xl rounded-tl-2xl" />
+-                  </div>
+-                  <h2 class="font-semibold text-tile">Trà sữa</h2>
+-                  <div class="w-full px-[10px] py-[20px]">
+-                    <button
+-                      class="bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]">
+-                      Đặt trước
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]">
+-                  <div class="w-full h-full rounded-tr-2xl rounded-tl-2xl">
+-                    <img
+-                      src="../../img/milk-tea/3.png"
+-                      alt=""
+-                      class="w-full h-full rounded-tr-2xl rounded-tl-2xl" />
+-                  </div>
+-                  <h2 class="font-semibold text-tile">Trà sữa</h2>
+-                  <div class="w-full px-[10px] py-[20px]">
+-                    <button
+-                      class="bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]">
+-                      Đặt trước
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]">
+-                  <div class="w-full h-full rounded-tr-2xl rounded-tl-2xl">
+-                    <img
+-                      src="../../img/milk-tea/4.png"
+-                      alt=""
+-                      class="w-full h-full rounded-tr-2xl rounded-tl-2xl" />
+-                  </div>
+-                  <h2 class="font-semibold text-tile">Trà sữa</h2>
+-                  <div class="w-full px-[10px] py-[20px]">
+-                    <button
+-                      class="bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]">
+-                      Đặt trước
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]">
+-                  <div class="w-full h-full rounded-tr-2xl rounded-tl-2xl">
+-                    <img
+-                      src="../../img/milk-tea/5.png"
+-                      alt=""
+-                      class="w-full h-full rounded-tr-2xl rounded-tl-2xl" />
+-                  </div>
+-                  <h2 class="font-semibold text-tile">Trà sữa</h2>
+-                  <span class="text-[#6E7191] text-[11px] font-medium"
+-                    >(đã có người đặt)</span
+-                  >
+-                  <div class="w-full px-[10px] py-[20px]">
+-                    <button
+-                      class="bg-[#F2F2F2] outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#BDBDBD]">
+-                      Đặt trước
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]">
+-                  <div class="w-full h-full rounded-tr-2xl rounded-tl-2xl">
+-                    <img
+-                      src="../../img/milk-tea/6.png"
+-                      alt=""
+-                      class="w-full h-full rounded-tr-2xl rounded-tl-2xl" />
+-                  </div>
+-                  <h2 class="font-semibold text-tile">Trà sữa</h2>
+-                  <div class="w-full px-[10px] py-[20px]">
+-                    <button
+-                      class="bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]">
+-                      Đặt trước
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]">
+-                  <div class="w-full h-full rounded-tr-2xl rounded-tl-2xl">
+-                    <img
+-                      src="../../img/milk-tea/7.png"
+-                      alt=""
+-                      class="w-full h-full rounded-tr-2xl rounded-tl-2xl" />
+-                  </div>
+-                  <h2 class="font-semibold text-tile">Trà sữa</h2>
+-                  <div class="w-full px-[10px] py-[20px]">
+-                    <button
+-                      class="bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]">
+-                      Đặt trước
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]">
+-                  <div class="w-full h-full rounded-tr-2xl rounded-tl-2xl">
+-                    <img
+-                      src="../../img/milk-tea/8.png"
+-                      alt=""
+-                      class="w-full h-full rounded-tr-2xl rounded-tl-2xl" />
+-                  </div>
+-                  <h2 class="font-semibold text-tile">Trà sữa</h2>
+-                  <div class="w-full px-[10px] py-[20px]">
+-                    <button
+-                      class="bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]">
+-                      Đặt trước
+-                    </button>
+-                  </div>
+-                </div>
+-                <div
+-                  class="flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]">
+-                  <div class="w-full h-full rounded-tr-2xl rounded-tl-2xl">
+-                    <img
+-                      src="../../img/milk-tea/9.png"
+-                      alt=""
+-                      class="w-full h-full rounded-tr-2xl rounded-tl-2xl" />
+-                  </div>
+-                  <h2 class="font-semibold text-tile">Trà sữa</h2>
+-                  <div class="w-full px-[10px] py-[20px]">
+-                    <button
+-                      class="bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]">
+-                      Đặt trước
+-                    </button>
+-                  </div>
+-                </div>
+-              </div>
+-            </div>
+-          </div>
+-        </div>
++              <div
++                class="grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6"
++                id="milktea">
++                <!-- menu.json -->
++              </div>
++            </div>
++          </div>
++        </div>
++
++        <!-- sale -->
+         <div class="col-span-12 lg:col-span-3">
+           <h3
+             class="text-title font-semibold text-xl py-5 lg:pt-0 lg:pb-5 lg:pl-8 xl:pl-16">
+Index: js/menu.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>function oderMilktea() {\r\n    // document.querySelectorAll(\".\")\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/js/menu.js b/js/menu.js
+--- a/js/menu.js	(revision e549fa94c399d3d5475414bd6f1fdf512e19579f)
++++ b/js/menu.js	(date 1670676784996)
+@@ -1,3 +1,63 @@
+-function oderMilktea() {
+-    // document.querySelectorAll(".")
+-}
+\ No newline at end of file
++fetch("http://localhost:3000/milkteas")
++  .then((response) => response.json())
++  .then((data) => {
++    const tea = document.getElementById("milktea");
++    tea.innerHTML = data
++      .map(
++        (item) =>
++          `<div
++                class="flex flex-col justify-center items-center gap-3 bg-[#FBF7F2]">
++                <div class="w-full h-full rounded-tr-2xl rounded-tl-2xl">
++                <img
++                    src="${item.img}"
++                    alt=""
++                    class="w-full h-full rounded-tr-2xl rounded-tl-2xl" />
++                </div>
++                <h2 class="font-semibold text-tile">${item.title}</h2>
++                ${
++                  item.status == 1
++                    ? `
++                    <div class="w-full px-[10px] py-[20px]">
++                <button
++                data-id="${item.id}"
++                    class="btnAction bg-primary outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#FFF]">
++                    Đặt trước
++                </button>
++                </div>`
++                    : `        <span class="text-[#6E7191] text-[11px] font-medium"
++                    >(Đã đặt)</span
++                  >
++                  <div class="w-full px-[10px] py-[20px]">
++                    <button
++                      class="bg-[#F2F2F2] outline-none rounded-xl py-[8px] font-semibold text-sm w-full text-[#BDBDBD]">
++                      Đặt trước
++                    </button>
++                  </div>`
++                }
++            </div>`
++      )
++      .join("");
++
++    const btns = document.querySelectorAll(".btnAction");
++    btns.forEach((element) => {
++      const { id } = element.dataset;
++      element.addEventListener("click", () => {
++        fetch("http://localhost:3000/milkteas/" + id, {
++          method: "PATCH", // or 'PUT'
++          headers: {
++            "Content-Type": "application/json",
++          },
++          body: JSON.stringify({
++            status: 2,
++          }),
++        })
++          .then((response) => response.json())
++          .then((data) => {
++            // alert("Đặt thành công !!");
++          })
++          .catch((error) => {
++            // alert("Đặt thất bại !!");
++          });
++      });
++    });
++  });
+Index: dist/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*\r\n! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com\r\n*/\r\n\r\n/*\r\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\r\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\r\n*/\r\n\r\n*,\r\n::before,\r\n::after {\r\n  box-sizing: border-box;\r\n  /* 1 */\r\n  border-width: 0;\r\n  /* 2 */\r\n  border-style: solid;\r\n  /* 2 */\r\n  border-color: currentColor;\r\n  /* 2 */\r\n}\r\n\r\n::before,\r\n::after {\r\n  --tw-content: '';\r\n}\r\n\r\n/*\r\n1. Use a consistent sensible line-height in all browsers.\r\n2. Prevent adjustments of font size after orientation changes in iOS.\r\n3. Use a more readable tab size.\r\n4. Use the user's configured `sans` font-family by default.\r\n5. Use the user's configured `sans` font-feature-settings by default.\r\n*/\r\n\r\nhtml {\r\n  line-height: 1.5;\r\n  /* 1 */\r\n  -webkit-text-size-adjust: 100%;\r\n  /* 2 */\r\n  -moz-tab-size: 4;\r\n  /* 3 */\r\n  -o-tab-size: 4;\r\n     tab-size: 4;\r\n  /* 3 */\r\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\r\n  /* 4 */\r\n  font-feature-settings: normal;\r\n  /* 5 */\r\n}\r\n\r\n/*\r\n1. Remove the margin in all browsers.\r\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\r\n*/\r\n\r\nbody {\r\n  margin: 0;\r\n  /* 1 */\r\n  line-height: inherit;\r\n  /* 2 */\r\n}\r\n\r\n/*\r\n1. Add the correct height in Firefox.\r\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\r\n3. Ensure horizontal rules are visible by default.\r\n*/\r\n\r\nhr {\r\n  height: 0;\r\n  /* 1 */\r\n  color: inherit;\r\n  /* 2 */\r\n  border-top-width: 1px;\r\n  /* 3 */\r\n}\r\n\r\n/*\r\nAdd the correct text decoration in Chrome, Edge, and Safari.\r\n*/\r\n\r\nabbr:where([title]) {\r\n  -webkit-text-decoration: underline dotted;\r\n          text-decoration: underline dotted;\r\n}\r\n\r\n/*\r\nRemove the default font size and weight for headings.\r\n*/\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  font-size: inherit;\r\n  font-weight: inherit;\r\n}\r\n\r\n/*\r\nReset links to optimize for opt-in styling instead of opt-out.\r\n*/\r\n\r\na {\r\n  color: inherit;\r\n  text-decoration: inherit;\r\n}\r\n\r\n/*\r\nAdd the correct font weight in Edge and Safari.\r\n*/\r\n\r\nb,\r\nstrong {\r\n  font-weight: bolder;\r\n}\r\n\r\n/*\r\n1. Use the user's configured `mono` font family by default.\r\n2. Correct the odd `em` font sizing in all browsers.\r\n*/\r\n\r\ncode,\r\nkbd,\r\nsamp,\r\npre {\r\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\r\n  /* 1 */\r\n  font-size: 1em;\r\n  /* 2 */\r\n}\r\n\r\n/*\r\nAdd the correct font size in all browsers.\r\n*/\r\n\r\nsmall {\r\n  font-size: 80%;\r\n}\r\n\r\n/*\r\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\r\n*/\r\n\r\nsub,\r\nsup {\r\n  font-size: 75%;\r\n  line-height: 0;\r\n  position: relative;\r\n  vertical-align: baseline;\r\n}\r\n\r\nsub {\r\n  bottom: -0.25em;\r\n}\r\n\r\nsup {\r\n  top: -0.5em;\r\n}\r\n\r\n/*\r\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\r\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\r\n3. Remove gaps between table borders by default.\r\n*/\r\n\r\ntable {\r\n  text-indent: 0;\r\n  /* 1 */\r\n  border-color: inherit;\r\n  /* 2 */\r\n  border-collapse: collapse;\r\n  /* 3 */\r\n}\r\n\r\n/*\r\n1. Change the font styles in all browsers.\r\n2. Remove the margin in Firefox and Safari.\r\n3. Remove default padding in all browsers.\r\n*/\r\n\r\nbutton,\r\ninput,\r\noptgroup,\r\nselect,\r\ntextarea {\r\n  font-family: inherit;\r\n  /* 1 */\r\n  font-size: 100%;\r\n  /* 1 */\r\n  font-weight: inherit;\r\n  /* 1 */\r\n  line-height: inherit;\r\n  /* 1 */\r\n  color: inherit;\r\n  /* 1 */\r\n  margin: 0;\r\n  /* 2 */\r\n  padding: 0;\r\n  /* 3 */\r\n}\r\n\r\n/*\r\nRemove the inheritance of text transform in Edge and Firefox.\r\n*/\r\n\r\nbutton,\r\nselect {\r\n  text-transform: none;\r\n}\r\n\r\n/*\r\n1. Correct the inability to style clickable types in iOS and Safari.\r\n2. Remove default button styles.\r\n*/\r\n\r\nbutton,\r\n[type='button'],\r\n[type='reset'],\r\n[type='submit'] {\r\n  -webkit-appearance: button;\r\n  /* 1 */\r\n  background-color: transparent;\r\n  /* 2 */\r\n  background-image: none;\r\n  /* 2 */\r\n}\r\n\r\n/*\r\nUse the modern Firefox focus style for all focusable elements.\r\n*/\r\n\r\n:-moz-focusring {\r\n  outline: auto;\r\n}\r\n\r\n/*\r\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\r\n*/\r\n\r\n:-moz-ui-invalid {\r\n  box-shadow: none;\r\n}\r\n\r\n/*\r\nAdd the correct vertical alignment in Chrome and Firefox.\r\n*/\r\n\r\nprogress {\r\n  vertical-align: baseline;\r\n}\r\n\r\n/*\r\nCorrect the cursor style of increment and decrement buttons in Safari.\r\n*/\r\n\r\n::-webkit-inner-spin-button,\r\n::-webkit-outer-spin-button {\r\n  height: auto;\r\n}\r\n\r\n/*\r\n1. Correct the odd appearance in Chrome and Safari.\r\n2. Correct the outline style in Safari.\r\n*/\r\n\r\n[type='search'] {\r\n  -webkit-appearance: textfield;\r\n  /* 1 */\r\n  outline-offset: -2px;\r\n  /* 2 */\r\n}\r\n\r\n/*\r\nRemove the inner padding in Chrome and Safari on macOS.\r\n*/\r\n\r\n::-webkit-search-decoration {\r\n  -webkit-appearance: none;\r\n}\r\n\r\n/*\r\n1. Correct the inability to style clickable types in iOS and Safari.\r\n2. Change font properties to `inherit` in Safari.\r\n*/\r\n\r\n::-webkit-file-upload-button {\r\n  -webkit-appearance: button;\r\n  /* 1 */\r\n  font: inherit;\r\n  /* 2 */\r\n}\r\n\r\n/*\r\nAdd the correct display in Chrome and Safari.\r\n*/\r\n\r\nsummary {\r\n  display: list-item;\r\n}\r\n\r\n/*\r\nRemoves the default spacing and border for appropriate elements.\r\n*/\r\n\r\nblockquote,\r\ndl,\r\ndd,\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6,\r\nhr,\r\nfigure,\r\np,\r\npre {\r\n  margin: 0;\r\n}\r\n\r\nfieldset {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nlegend {\r\n  padding: 0;\r\n}\r\n\r\nol,\r\nul,\r\nmenu {\r\n  list-style: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n/*\r\nPrevent resizing textareas horizontally by default.\r\n*/\r\n\r\ntextarea {\r\n  resize: vertical;\r\n}\r\n\r\n/*\r\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\r\n2. Set the default placeholder color to the user's configured gray 400 color.\r\n*/\r\n\r\ninput::-moz-placeholder, textarea::-moz-placeholder {\r\n  opacity: 1;\r\n  /* 1 */\r\n  color: #9ca3af;\r\n  /* 2 */\r\n}\r\n\r\ninput::placeholder,\r\ntextarea::placeholder {\r\n  opacity: 1;\r\n  /* 1 */\r\n  color: #9ca3af;\r\n  /* 2 */\r\n}\r\n\r\n/*\r\nSet the default cursor for buttons.\r\n*/\r\n\r\nbutton,\r\n[role=\"button\"] {\r\n  cursor: pointer;\r\n}\r\n\r\n/*\r\nMake sure disabled buttons don't get the pointer cursor.\r\n*/\r\n\r\n:disabled {\r\n  cursor: default;\r\n}\r\n\r\n/*\r\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\r\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\r\n   This can trigger a poorly considered lint error in some tools but is included by design.\r\n*/\r\n\r\nimg,\r\nsvg,\r\nvideo,\r\ncanvas,\r\naudio,\r\niframe,\r\nembed,\r\nobject {\r\n  display: block;\r\n  /* 1 */\r\n  vertical-align: middle;\r\n  /* 2 */\r\n}\r\n\r\n/*\r\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\r\n*/\r\n\r\nimg,\r\nvideo {\r\n  max-width: 100%;\r\n  height: auto;\r\n}\r\n\r\n/* Make elements with the HTML hidden attribute stay hidden by default */\r\n\r\n[hidden] {\r\n  display: none;\r\n}\r\n\r\n*, ::before, ::after {\r\n  --tw-border-spacing-x: 0;\r\n  --tw-border-spacing-y: 0;\r\n  --tw-translate-x: 0;\r\n  --tw-translate-y: 0;\r\n  --tw-rotate: 0;\r\n  --tw-skew-x: 0;\r\n  --tw-skew-y: 0;\r\n  --tw-scale-x: 1;\r\n  --tw-scale-y: 1;\r\n  --tw-pan-x:  ;\r\n  --tw-pan-y:  ;\r\n  --tw-pinch-zoom:  ;\r\n  --tw-scroll-snap-strictness: proximity;\r\n  --tw-ordinal:  ;\r\n  --tw-slashed-zero:  ;\r\n  --tw-numeric-figure:  ;\r\n  --tw-numeric-spacing:  ;\r\n  --tw-numeric-fraction:  ;\r\n  --tw-ring-inset:  ;\r\n  --tw-ring-offset-width: 0px;\r\n  --tw-ring-offset-color: #fff;\r\n  --tw-ring-color: rgb(59 130 246 / 0.5);\r\n  --tw-ring-offset-shadow: 0 0 #0000;\r\n  --tw-ring-shadow: 0 0 #0000;\r\n  --tw-shadow: 0 0 #0000;\r\n  --tw-shadow-colored: 0 0 #0000;\r\n  --tw-blur:  ;\r\n  --tw-brightness:  ;\r\n  --tw-contrast:  ;\r\n  --tw-grayscale:  ;\r\n  --tw-hue-rotate:  ;\r\n  --tw-invert:  ;\r\n  --tw-saturate:  ;\r\n  --tw-sepia:  ;\r\n  --tw-drop-shadow:  ;\r\n  --tw-backdrop-blur:  ;\r\n  --tw-backdrop-brightness:  ;\r\n  --tw-backdrop-contrast:  ;\r\n  --tw-backdrop-grayscale:  ;\r\n  --tw-backdrop-hue-rotate:  ;\r\n  --tw-backdrop-invert:  ;\r\n  --tw-backdrop-opacity:  ;\r\n  --tw-backdrop-saturate:  ;\r\n  --tw-backdrop-sepia:  ;\r\n}\r\n\r\n::backdrop {\r\n  --tw-border-spacing-x: 0;\r\n  --tw-border-spacing-y: 0;\r\n  --tw-translate-x: 0;\r\n  --tw-translate-y: 0;\r\n  --tw-rotate: 0;\r\n  --tw-skew-x: 0;\r\n  --tw-skew-y: 0;\r\n  --tw-scale-x: 1;\r\n  --tw-scale-y: 1;\r\n  --tw-pan-x:  ;\r\n  --tw-pan-y:  ;\r\n  --tw-pinch-zoom:  ;\r\n  --tw-scroll-snap-strictness: proximity;\r\n  --tw-ordinal:  ;\r\n  --tw-slashed-zero:  ;\r\n  --tw-numeric-figure:  ;\r\n  --tw-numeric-spacing:  ;\r\n  --tw-numeric-fraction:  ;\r\n  --tw-ring-inset:  ;\r\n  --tw-ring-offset-width: 0px;\r\n  --tw-ring-offset-color: #fff;\r\n  --tw-ring-color: rgb(59 130 246 / 0.5);\r\n  --tw-ring-offset-shadow: 0 0 #0000;\r\n  --tw-ring-shadow: 0 0 #0000;\r\n  --tw-shadow: 0 0 #0000;\r\n  --tw-shadow-colored: 0 0 #0000;\r\n  --tw-blur:  ;\r\n  --tw-brightness:  ;\r\n  --tw-contrast:  ;\r\n  --tw-grayscale:  ;\r\n  --tw-hue-rotate:  ;\r\n  --tw-invert:  ;\r\n  --tw-saturate:  ;\r\n  --tw-sepia:  ;\r\n  --tw-drop-shadow:  ;\r\n  --tw-backdrop-blur:  ;\r\n  --tw-backdrop-brightness:  ;\r\n  --tw-backdrop-contrast:  ;\r\n  --tw-backdrop-grayscale:  ;\r\n  --tw-backdrop-hue-rotate:  ;\r\n  --tw-backdrop-invert:  ;\r\n  --tw-backdrop-opacity:  ;\r\n  --tw-backdrop-saturate:  ;\r\n  --tw-backdrop-sepia:  ;\r\n}\r\n\r\n.absolute {\r\n  position: absolute;\r\n}\r\n\r\n.relative {\r\n  position: relative;\r\n}\r\n\r\n.top-\\[16px\\] {\r\n  top: 16px;\r\n}\r\n\r\n.left-\\[20px\\] {\r\n  left: 20px;\r\n}\r\n\r\n.top-\\[10px\\] {\r\n  top: 10px;\r\n}\r\n\r\n.right-\\[50px\\] {\r\n  right: 50px;\r\n}\r\n\r\n.top-1\\/4 {\r\n  top: 25%;\r\n}\r\n\r\n.top-\\[\\] {\r\n  top: 25%;\r\n}\r\n\r\n.top-\\[150px\\] {\r\n  top: 150px;\r\n}\r\n\r\n.z-\\[6\\] {\r\n  z-index: 6;\r\n}\r\n\r\n.z-\\[10\\] {\r\n  z-index: 10;\r\n}\r\n\r\n.z-\\[5\\] {\r\n  z-index: 5;\r\n}\r\n\r\n.col-span-3 {\r\n  grid-column: span 3 / span 3;\r\n}\r\n\r\n.col-span-6 {\r\n  grid-column: span 6 / span 6;\r\n}\r\n\r\n.col-span-12 {\r\n  grid-column: span 12 / span 12;\r\n}\r\n\r\n.mx-auto {\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}\r\n\r\n.my-4 {\r\n  margin-top: 1rem;\r\n  margin-bottom: 1rem;\r\n}\r\n\r\n.my-10 {\r\n  margin-top: 2.5rem;\r\n  margin-bottom: 2.5rem;\r\n}\r\n\r\n.flex {\r\n  display: flex;\r\n}\r\n\r\n.grid {\r\n  display: grid;\r\n}\r\n\r\n.hidden {\r\n  display: none;\r\n}\r\n\r\n.h-full {\r\n  height: 100%;\r\n}\r\n\r\n.h-\\[48px\\] {\r\n  height: 48px;\r\n}\r\n\r\n.h-\\[32px\\] {\r\n  height: 32px;\r\n}\r\n\r\n.h-\\[232px\\] {\r\n  height: 232px;\r\n}\r\n\r\n.w-\\[111px\\] {\r\n  width: 111px;\r\n}\r\n\r\n.w-\\[110px\\] {\r\n  width: 110px;\r\n}\r\n\r\n.w-full {\r\n  width: 100%;\r\n}\r\n\r\n.w-\\[48px\\] {\r\n  width: 48px;\r\n}\r\n\r\n.w-\\[32px\\] {\r\n  width: 32px;\r\n}\r\n\r\n.w-\\[177px\\] {\r\n  width: 177px;\r\n}\r\n\r\n.w-\\[200px\\] {\r\n  width: 200px;\r\n}\r\n\r\n.w-\\[232px\\] {\r\n  width: 232px;\r\n}\r\n\r\n.w-\\[120px\\] {\r\n  width: 120px;\r\n}\r\n\r\n.w-\\[160px\\] {\r\n  width: 160px;\r\n}\r\n\r\n.max-w-\\[380px\\] {\r\n  max-width: 380px;\r\n}\r\n\r\n.max-w-\\[520px\\] {\r\n  max-width: 520px;\r\n}\r\n\r\n.max-w-\\[200px\\] {\r\n  max-width: 200px;\r\n}\r\n\r\n.max-w-\\[300px\\] {\r\n  max-width: 300px;\r\n}\r\n\r\n.cursor-pointer {\r\n  cursor: pointer;\r\n}\r\n\r\n.grid-cols-1 {\r\n  grid-template-columns: repeat(1, minmax(0, 1fr));\r\n}\r\n\r\n.grid-cols-2 {\r\n  grid-template-columns: repeat(2, minmax(0, 1fr));\r\n}\r\n\r\n.flex-col {\r\n  flex-direction: column;\r\n}\r\n\r\n.flex-wrap {\r\n  flex-wrap: wrap;\r\n}\r\n\r\n.place-items-center {\r\n  place-items: center;\r\n}\r\n\r\n.items-start {\r\n  align-items: flex-start;\r\n}\r\n\r\n.items-end {\r\n  align-items: flex-end;\r\n}\r\n\r\n.items-center {\r\n  align-items: center;\r\n}\r\n\r\n.justify-start {\r\n  justify-content: flex-start;\r\n}\r\n\r\n.justify-end {\r\n  justify-content: flex-end;\r\n}\r\n\r\n.justify-center {\r\n  justify-content: center;\r\n}\r\n\r\n.justify-between {\r\n  justify-content: space-between;\r\n}\r\n\r\n.justify-around {\r\n  justify-content: space-around;\r\n}\r\n\r\n.gap-6 {\r\n  gap: 1.5rem;\r\n}\r\n\r\n.gap-8 {\r\n  gap: 2rem;\r\n}\r\n\r\n.gap-4 {\r\n  gap: 1rem;\r\n}\r\n\r\n.gap-2 {\r\n  gap: 0.5rem;\r\n}\r\n\r\n.gap-3 {\r\n  gap: 0.75rem;\r\n}\r\n\r\n.gap-5 {\r\n  gap: 1.25rem;\r\n}\r\n\r\n.gap-11 {\r\n  gap: 2.75rem;\r\n}\r\n\r\n.gap-y-5 {\r\n  row-gap: 1.25rem;\r\n}\r\n\r\n.gap-y-4 {\r\n  row-gap: 1rem;\r\n}\r\n\r\n.rounded-xl {\r\n  border-radius: 0.75rem;\r\n}\r\n\r\n.rounded-full {\r\n  border-radius: 9999px;\r\n}\r\n\r\n.rounded-2xl {\r\n  border-radius: 1rem;\r\n}\r\n\r\n.rounded-tr-2xl {\r\n  border-top-right-radius: 1rem;\r\n}\r\n\r\n.rounded-tl-2xl {\r\n  border-top-left-radius: 1rem;\r\n}\r\n\r\n.border-\\[1px\\] {\r\n  border-width: 1px;\r\n}\r\n\r\n.border-2 {\r\n  border-width: 2px;\r\n}\r\n\r\n.border-b-2 {\r\n  border-bottom-width: 2px;\r\n}\r\n\r\n.border-b-\\[1px\\] {\r\n  border-bottom-width: 1px;\r\n}\r\n\r\n.border-\\[\\#F7F7FC\\] {\r\n  --tw-border-opacity: 1;\r\n  border-color: rgb(247 247 252 / var(--tw-border-opacity));\r\n}\r\n\r\n.border-\\[\\#B38C64\\] {\r\n  --tw-border-opacity: 1;\r\n  border-color: rgb(179 140 100 / var(--tw-border-opacity));\r\n}\r\n\r\n.border-\\[\\#F1F1F5\\] {\r\n  --tw-border-opacity: 1;\r\n  border-color: rgb(241 241 245 / var(--tw-border-opacity));\r\n}\r\n\r\n.border-primary {\r\n  --tw-border-opacity: 1;\r\n  border-color: rgb(224 175 126 / var(--tw-border-opacity));\r\n}\r\n\r\n.border-\\[\\#E0E0E0\\] {\r\n  --tw-border-opacity: 1;\r\n  border-color: rgb(224 224 224 / var(--tw-border-opacity));\r\n}\r\n\r\n.bg-\\[\\#FFF\\] {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\r\n}\r\n\r\n.bg-\\[\\#F7F7FC\\] {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(247 247 252 / var(--tw-bg-opacity));\r\n}\r\n\r\n.bg-\\[\\#FBF7F2\\] {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(251 247 242 / var(--tw-bg-opacity));\r\n}\r\n\r\n.bg-primary {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(224 175 126 / var(--tw-bg-opacity));\r\n}\r\n\r\n.bg-\\[\\#F2F2F2\\] {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(242 242 242 / var(--tw-bg-opacity));\r\n}\r\n\r\n.bg-bghead {\r\n  background-color: #F5F5F5;;\r\n}\r\n\r\n.bg-\\[\\#FCFCFC\\] {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(252 252 252 / var(--tw-bg-opacity));\r\n}\r\n\r\n.bg-\\[\\#EFF0F7\\] {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(239 240 247 / var(--tw-bg-opacity));\r\n}\r\n\r\n.bg-\\[\\#E0E0E0\\] {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(224 224 224 / var(--tw-bg-opacity));\r\n}\r\n\r\n.bg-\\[\\#F5E7D8\\] {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(245 231 216 / var(--tw-bg-opacity));\r\n}\r\n\r\n.bg-\\[\\#E0AF7E\\] {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(224 175 126 / var(--tw-bg-opacity));\r\n}\r\n\r\n.p-4 {\r\n  padding: 1rem;\r\n}\r\n\r\n.p-2 {\r\n  padding: 0.5rem;\r\n}\r\n\r\n.p-5 {\r\n  padding: 1.25rem;\r\n}\r\n\r\n.p-12 {\r\n  padding: 3rem;\r\n}\r\n\r\n.py-\\[20px\\] {\r\n  padding-top: 20px;\r\n  padding-bottom: 20px;\r\n}\r\n\r\n.px-\\[20px\\] {\r\n  padding-left: 20px;\r\n  padding-right: 20px;\r\n}\r\n\r\n.px-16 {\r\n  padding-left: 4rem;\r\n  padding-right: 4rem;\r\n}\r\n\r\n.px-10 {\r\n  padding-left: 2.5rem;\r\n  padding-right: 2.5rem;\r\n}\r\n\r\n.px-\\[10px\\] {\r\n  padding-left: 10px;\r\n  padding-right: 10px;\r\n}\r\n\r\n.py-\\[30px\\] {\r\n  padding-top: 30px;\r\n  padding-bottom: 30px;\r\n}\r\n\r\n.py-4 {\r\n  padding-top: 1rem;\r\n  padding-bottom: 1rem;\r\n}\r\n\r\n.py-\\[8px\\] {\r\n  padding-top: 8px;\r\n  padding-bottom: 8px;\r\n}\r\n\r\n.py-5 {\r\n  padding-top: 1.25rem;\r\n  padding-bottom: 1.25rem;\r\n}\r\n\r\n.px-4 {\r\n  padding-left: 1rem;\r\n  padding-right: 1rem;\r\n}\r\n\r\n.px-6 {\r\n  padding-left: 1.5rem;\r\n  padding-right: 1.5rem;\r\n}\r\n\r\n.px-5 {\r\n  padding-left: 1.25rem;\r\n  padding-right: 1.25rem;\r\n}\r\n\r\n.py-6 {\r\n  padding-top: 1.5rem;\r\n  padding-bottom: 1.5rem;\r\n}\r\n\r\n.py-2 {\r\n  padding-top: 0.5rem;\r\n  padding-bottom: 0.5rem;\r\n}\r\n\r\n.py-11 {\r\n  padding-top: 2.75rem;\r\n  padding-bottom: 2.75rem;\r\n}\r\n\r\n.px-2 {\r\n  padding-left: 0.5rem;\r\n  padding-right: 0.5rem;\r\n}\r\n\r\n.py-3 {\r\n  padding-top: 0.75rem;\r\n  padding-bottom: 0.75rem;\r\n}\r\n\r\n.pt-4 {\r\n  padding-top: 1rem;\r\n}\r\n\r\n.text-center {\r\n  text-align: center;\r\n}\r\n\r\n.text-4xl {\r\n  font-size: 2.25rem;\r\n  line-height: 2.5rem;\r\n}\r\n\r\n.text-sm {\r\n  font-size: 0.875rem;\r\n  line-height: 1.25rem;\r\n}\r\n\r\n.text-\\[11px\\] {\r\n  font-size: 11px;\r\n}\r\n\r\n.text-xl {\r\n  font-size: 1.25rem;\r\n  line-height: 1.75rem;\r\n}\r\n\r\n.text-2xl {\r\n  font-size: 1.5rem;\r\n  line-height: 2rem;\r\n}\r\n\r\n.text-lg {\r\n  font-size: 1.125rem;\r\n  line-height: 1.75rem;\r\n}\r\n\r\n.text-xs {\r\n  font-size: 0.75rem;\r\n  line-height: 1rem;\r\n}\r\n\r\n.text-3xl {\r\n  font-size: 1.875rem;\r\n  line-height: 2.25rem;\r\n}\r\n\r\n.font-medium {\r\n  font-weight: 500;\r\n}\r\n\r\n.font-bold {\r\n  font-weight: 700;\r\n}\r\n\r\n.font-semibold {\r\n  font-weight: 600;\r\n}\r\n\r\n.uppercase {\r\n  text-transform: uppercase;\r\n}\r\n\r\n.text-primary {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(224 175 126 / var(--tw-text-opacity));\r\n}\r\n\r\n.text-\\[\\#FFF\\] {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(255 255 255 / var(--tw-text-opacity));\r\n}\r\n\r\n.text-\\[\\#6E7191\\] {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(110 113 145 / var(--tw-text-opacity));\r\n}\r\n\r\n.text-\\[\\#BDBDBD\\] {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(189 189 189 / var(--tw-text-opacity));\r\n}\r\n\r\n.text-\\[\\#A0A3BD\\] {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(160 163 189 / var(--tw-text-opacity));\r\n}\r\n\r\n.text-\\[\\#FFFFFF\\] {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(255 255 255 / var(--tw-text-opacity));\r\n}\r\n\r\n.text-\\[\\#0576F0\\] {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(5 118 240 / var(--tw-text-opacity));\r\n}\r\n\r\n.text-\\[\\#4F4F4F\\] {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(79 79 79 / var(--tw-text-opacity));\r\n}\r\n\r\n.text-\\[\\#828282\\] {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(130 130 130 / var(--tw-text-opacity));\r\n}\r\n\r\n.text-brown {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(179 140 100 / var(--tw-text-opacity));\r\n}\r\n\r\n.text-\\[\\#333333\\] {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(51 51 51 / var(--tw-text-opacity));\r\n}\r\n\r\n.shadow-lg {\r\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\r\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\r\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\r\n}\r\n\r\n.shadow-xl {\r\n  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);\r\n  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);\r\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\r\n}\r\n\r\n.outline-none {\r\n  outline: 2px solid transparent;\r\n  outline-offset: 2px;\r\n}\r\n\r\n.transition-all {\r\n  transition-property: all;\r\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\r\n  transition-duration: 150ms;\r\n}\r\n\r\n.duration-200 {\r\n  transition-duration: 200ms;\r\n}\r\n\r\n.duration-500 {\r\n  transition-duration: 500ms;\r\n}\r\n\r\n.hover\\:bg-\\[\\#FFF\\]:hover {\r\n  --tw-bg-opacity: 1;\r\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\r\n}\r\n\r\n.hover\\:text-primary:hover {\r\n  --tw-text-opacity: 1;\r\n  color: rgb(224 175 126 / var(--tw-text-opacity));\r\n}\r\n\r\n.focus\\:border-primary:focus {\r\n  --tw-border-opacity: 1;\r\n  border-color: rgb(224 175 126 / var(--tw-border-opacity));\r\n}\r\n\r\n@media (min-width: 768px) {\r\n  .md\\:col-span-4 {\r\n    grid-column: span 4 / span 4;\r\n  }\r\n\r\n  .md\\:col-span-8 {\r\n    grid-column: span 8 / span 8;\r\n  }\r\n\r\n  .md\\:flex {\r\n    display: flex;\r\n  }\r\n\r\n  .md\\:w-\\[405px\\] {\r\n    width: 405px;\r\n  }\r\n\r\n  .md\\:max-w-\\[550px\\] {\r\n    max-width: 550px;\r\n  }\r\n\r\n  .md\\:grid-cols-1 {\r\n    grid-template-columns: repeat(1, minmax(0, 1fr));\r\n  }\r\n\r\n  .md\\:grid-cols-12 {\r\n    grid-template-columns: repeat(12, minmax(0, 1fr));\r\n  }\r\n\r\n  .md\\:grid-cols-2 {\r\n    grid-template-columns: repeat(2, minmax(0, 1fr));\r\n  }\r\n\r\n  .md\\:flex-nowrap {\r\n    flex-wrap: nowrap;\r\n  }\r\n\r\n  .md\\:justify-between {\r\n    justify-content: space-between;\r\n  }\r\n\r\n  .md\\:gap-6 {\r\n    gap: 1.5rem;\r\n  }\r\n\r\n  .md\\:gap-y-0 {\r\n    row-gap: 0px;\r\n  }\r\n\r\n  .md\\:p-5 {\r\n    padding: 1.25rem;\r\n  }\r\n\r\n  .md\\:py-0 {\r\n    padding-top: 0px;\r\n    padding-bottom: 0px;\r\n  }\r\n\r\n  .md\\:px-\\[20px\\] {\r\n    padding-left: 20px;\r\n    padding-right: 20px;\r\n  }\r\n\r\n  .md\\:px-8 {\r\n    padding-left: 2rem;\r\n    padding-right: 2rem;\r\n  }\r\n\r\n  .md\\:pr-8 {\r\n    padding-right: 2rem;\r\n  }\r\n}\r\n\r\n@media (min-width: 1024px) {\r\n  .lg\\:absolute {\r\n    position: absolute;\r\n  }\r\n\r\n  .lg\\:top-\\[-45px\\] {\r\n    top: -45px;\r\n  }\r\n\r\n  .lg\\:left-0 {\r\n    left: 0px;\r\n  }\r\n\r\n  .lg\\:col-span-3 {\r\n    grid-column: span 3 / span 3;\r\n  }\r\n\r\n  .lg\\:col-span-6 {\r\n    grid-column: span 6 / span 6;\r\n  }\r\n\r\n  .lg\\:my-0 {\r\n    margin-top: 0px;\r\n    margin-bottom: 0px;\r\n  }\r\n\r\n  .lg\\:block {\r\n    display: block;\r\n  }\r\n\r\n  .lg\\:flex {\r\n    display: flex;\r\n  }\r\n\r\n  .lg\\:h-\\[47px\\] {\r\n    height: 47px;\r\n  }\r\n\r\n  .lg\\:h-\\[300px\\] {\r\n    height: 300px;\r\n  }\r\n\r\n  .lg\\:w-\\[177px\\] {\r\n    width: 177px;\r\n  }\r\n\r\n  .lg\\:w-\\[176px\\] {\r\n    width: 176px;\r\n  }\r\n\r\n  .lg\\:max-w-\\[420px\\] {\r\n    max-width: 420px;\r\n  }\r\n\r\n  .lg\\:grid-cols-12 {\r\n    grid-template-columns: repeat(12, minmax(0, 1fr));\r\n  }\r\n\r\n  .lg\\:grid-cols-3 {\r\n    grid-template-columns: repeat(3, minmax(0, 1fr));\r\n  }\r\n\r\n  .lg\\:grid-cols-2 {\r\n    grid-template-columns: repeat(2, minmax(0, 1fr));\r\n  }\r\n\r\n  .lg\\:flex-col {\r\n    flex-direction: column;\r\n  }\r\n\r\n  .lg\\:py-\\[40px\\] {\r\n    padding-top: 40px;\r\n    padding-bottom: 40px;\r\n  }\r\n\r\n  .lg\\:pt-0 {\r\n    padding-top: 0px;\r\n  }\r\n\r\n  .lg\\:pb-5 {\r\n    padding-bottom: 1.25rem;\r\n  }\r\n\r\n  .lg\\:pl-8 {\r\n    padding-left: 2rem;\r\n  }\r\n}\r\n\r\n@media (min-width: 1280px) {\r\n  .xl\\:left-1\\/4 {\r\n    left: 25%;\r\n  }\r\n\r\n  .xl\\:mx-auto {\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n\r\n  .xl\\:max-w-\\[1440px\\] {\r\n    max-width: 1440px;\r\n  }\r\n\r\n  .xl\\:flex-nowrap {\r\n    flex-wrap: nowrap;\r\n  }\r\n\r\n  .xl\\:px-0 {\r\n    padding-left: 0px;\r\n    padding-right: 0px;\r\n  }\r\n\r\n  .xl\\:pr-16 {\r\n    padding-right: 4rem;\r\n  }\r\n\r\n  .xl\\:pl-16 {\r\n    padding-left: 4rem;\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/dist/style.css b/dist/style.css
+--- a/dist/style.css	(revision e549fa94c399d3d5475414bd6f1fdf512e19579f)
++++ b/dist/style.css	(date 1670676861397)
+@@ -10,7 +10,7 @@
+ *,
+ ::before,
+ ::after {
+-  box-sizing: border-box;
++  box-sizing  : border-box;
+   /* 1 */
+   border-width: 0;
+   /* 2 */
+@@ -34,18 +34,18 @@
+ */
+ 
+ html {
+-  line-height: 1.5;
++  line-height             : 1.5;
+   /* 1 */
+   -webkit-text-size-adjust: 100%;
+   /* 2 */
+-  -moz-tab-size: 4;
++  -moz-tab-size           : 4;
+   /* 3 */
+-  -o-tab-size: 4;
+-     tab-size: 4;
++  -o-tab-size             : 4;
++  tab-size                : 4;
+   /* 3 */
+-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
++  font-family             : ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   /* 4 */
+-  font-feature-settings: normal;
++  font-feature-settings   : normal;
+   /* 5 */
+ }
+ 
+@@ -55,7 +55,7 @@
+ */
+ 
+ body {
+-  margin: 0;
++  margin     : 0;
+   /* 1 */
+   line-height: inherit;
+   /* 2 */
+@@ -68,9 +68,9 @@
+ */
+ 
+ hr {
+-  height: 0;
++  height          : 0;
+   /* 1 */
+-  color: inherit;
++  color           : inherit;
+   /* 2 */
+   border-top-width: 1px;
+   /* 3 */
+@@ -82,7 +82,7 @@
+ 
+ abbr:where([title]) {
+   -webkit-text-decoration: underline dotted;
+-          text-decoration: underline dotted;
++  text-decoration        : underline dotted;
+ }
+ 
+ /*
+@@ -95,7 +95,7 @@
+ h4,
+ h5,
+ h6 {
+-  font-size: inherit;
++  font-size  : inherit;
+   font-weight: inherit;
+ }
+ 
+@@ -104,7 +104,7 @@
+ */
+ 
+ a {
+-  color: inherit;
++  color          : inherit;
+   text-decoration: inherit;
+ }
+ 
+@@ -128,7 +128,7 @@
+ pre {
+   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+   /* 1 */
+-  font-size: 1em;
++  font-size  : 1em;
+   /* 2 */
+ }
+ 
+@@ -146,9 +146,9 @@
+ 
+ sub,
+ sup {
+-  font-size: 75%;
+-  line-height: 0;
+-  position: relative;
++  font-size     : 75%;
++  line-height   : 0;
++  position      : relative;
+   vertical-align: baseline;
+ }
+ 
+@@ -167,9 +167,9 @@
+ */
+ 
+ table {
+-  text-indent: 0;
++  text-indent    : 0;
+   /* 1 */
+-  border-color: inherit;
++  border-color   : inherit;
+   /* 2 */
+   border-collapse: collapse;
+   /* 3 */
+@@ -188,17 +188,17 @@
+ textarea {
+   font-family: inherit;
+   /* 1 */
+-  font-size: 100%;
++  font-size  : 100%;
+   /* 1 */
+   font-weight: inherit;
+   /* 1 */
+   line-height: inherit;
+   /* 1 */
+-  color: inherit;
++  color      : inherit;
+   /* 1 */
+-  margin: 0;
++  margin     : 0;
+   /* 2 */
+-  padding: 0;
++  padding    : 0;
+   /* 3 */
+ }
+ 
+@@ -222,9 +222,9 @@
+ [type='submit'] {
+   -webkit-appearance: button;
+   /* 1 */
+-  background-color: transparent;
++  background-color  : transparent;
+   /* 2 */
+-  background-image: none;
++  background-image  : none;
+   /* 2 */
+ }
+ 
+@@ -269,7 +269,7 @@
+ [type='search'] {
+   -webkit-appearance: textfield;
+   /* 1 */
+-  outline-offset: -2px;
++  outline-offset    : -2px;
+   /* 2 */
+ }
+ 
+@@ -289,7 +289,7 @@
+ ::-webkit-file-upload-button {
+   -webkit-appearance: button;
+   /* 1 */
+-  font: inherit;
++  font              : inherit;
+   /* 2 */
+ }
+ 
+@@ -322,7 +322,7 @@
+ }
+ 
+ fieldset {
+-  margin: 0;
++  margin : 0;
+   padding: 0;
+ }
+ 
+@@ -334,8 +334,8 @@
+ ul,
+ menu {
+   list-style: none;
+-  margin: 0;
+-  padding: 0;
++  margin    : 0;
++  padding   : 0;
+ }
+ 
+ /*
+@@ -351,10 +351,11 @@
+ 2. Set the default placeholder color to the user's configured gray 400 color.
+ */
+ 
+-input::-moz-placeholder, textarea::-moz-placeholder {
++input::-moz-placeholder,
++textarea::-moz-placeholder {
+   opacity: 1;
+   /* 1 */
+-  color: #9ca3af;
++  color  : #9ca3af;
+   /* 2 */
+ }
+ 
+@@ -362,7 +363,7 @@
+ textarea::placeholder {
+   opacity: 1;
+   /* 1 */
+-  color: #9ca3af;
++  color  : #9ca3af;
+   /* 2 */
+ }
+ 
+@@ -397,7 +398,7 @@
+ iframe,
+ embed,
+ object {
+-  display: block;
++  display       : block;
+   /* 1 */
+   vertical-align: middle;
+   /* 2 */
+@@ -410,7 +411,7 @@
+ img,
+ video {
+   max-width: 100%;
+-  height: auto;
++  height   : auto;
+ }
+ 
+ /* Make elements with the HTML hidden attribute stay hidden by default */
+@@ -419,98 +420,100 @@
+   display: none;
+ }
+ 
+-*, ::before, ::after {
+-  --tw-border-spacing-x: 0;
+-  --tw-border-spacing-y: 0;
+-  --tw-translate-x: 0;
+-  --tw-translate-y: 0;
+-  --tw-rotate: 0;
+-  --tw-skew-x: 0;
+-  --tw-skew-y: 0;
+-  --tw-scale-x: 1;
+-  --tw-scale-y: 1;
+-  --tw-pan-x:  ;
+-  --tw-pan-y:  ;
+-  --tw-pinch-zoom:  ;
++*,
++::before,
++::after {
++  --tw-border-spacing-x      : 0;
++  --tw-border-spacing-y      : 0;
++  --tw-translate-x           : 0;
++  --tw-translate-y           : 0;
++  --tw-rotate                : 0;
++  --tw-skew-x                : 0;
++  --tw-skew-y                : 0;
++  --tw-scale-x               : 1;
++  --tw-scale-y               : 1;
++  --tw-pan-x                 : ;
++  --tw-pan-y                 : ;
++  --tw-pinch-zoom            : ;
+   --tw-scroll-snap-strictness: proximity;
+-  --tw-ordinal:  ;
+-  --tw-slashed-zero:  ;
+-  --tw-numeric-figure:  ;
+-  --tw-numeric-spacing:  ;
+-  --tw-numeric-fraction:  ;
+-  --tw-ring-inset:  ;
+-  --tw-ring-offset-width: 0px;
+-  --tw-ring-offset-color: #fff;
+-  --tw-ring-color: rgb(59 130 246 / 0.5);
+-  --tw-ring-offset-shadow: 0 0 #0000;
+-  --tw-ring-shadow: 0 0 #0000;
+-  --tw-shadow: 0 0 #0000;
+-  --tw-shadow-colored: 0 0 #0000;
+-  --tw-blur:  ;
+-  --tw-brightness:  ;
+-  --tw-contrast:  ;
+-  --tw-grayscale:  ;
+-  --tw-hue-rotate:  ;
+-  --tw-invert:  ;
+-  --tw-saturate:  ;
+-  --tw-sepia:  ;
+-  --tw-drop-shadow:  ;
+-  --tw-backdrop-blur:  ;
+-  --tw-backdrop-brightness:  ;
+-  --tw-backdrop-contrast:  ;
+-  --tw-backdrop-grayscale:  ;
+-  --tw-backdrop-hue-rotate:  ;
+-  --tw-backdrop-invert:  ;
+-  --tw-backdrop-opacity:  ;
+-  --tw-backdrop-saturate:  ;
+-  --tw-backdrop-sepia:  ;
++  --tw-ordinal               : ;
++  --tw-slashed-zero          : ;
++  --tw-numeric-figure        : ;
++  --tw-numeric-spacing       : ;
++  --tw-numeric-fraction      : ;
++  --tw-ring-inset            : ;
++  --tw-ring-offset-width     : 0px;
++  --tw-ring-offset-color     : #fff;
++  --tw-ring-color            : rgb(59 130 246 / 0.5);
++  --tw-ring-offset-shadow    : 0 0 #0000;
++  --tw-ring-shadow           : 0 0 #0000;
++  --tw-shadow                : 0 0 #0000;
++  --tw-shadow-colored        : 0 0 #0000;
++  --tw-blur                  : ;
++  --tw-brightness            : ;
++  --tw-contrast              : ;
++  --tw-grayscale             : ;
++  --tw-hue-rotate            : ;
++  --tw-invert                : ;
++  --tw-saturate              : ;
++  --tw-sepia                 : ;
++  --tw-drop-shadow           : ;
++  --tw-backdrop-blur         : ;
++  --tw-backdrop-brightness   : ;
++  --tw-backdrop-contrast     : ;
++  --tw-backdrop-grayscale    : ;
++  --tw-backdrop-hue-rotate   : ;
++  --tw-backdrop-invert       : ;
++  --tw-backdrop-opacity      : ;
++  --tw-backdrop-saturate     : ;
++  --tw-backdrop-sepia        : ;
+ }
+ 
+ ::backdrop {
+-  --tw-border-spacing-x: 0;
+-  --tw-border-spacing-y: 0;
+-  --tw-translate-x: 0;
+-  --tw-translate-y: 0;
+-  --tw-rotate: 0;
+-  --tw-skew-x: 0;
+-  --tw-skew-y: 0;
+-  --tw-scale-x: 1;
+-  --tw-scale-y: 1;
+-  --tw-pan-x:  ;
+-  --tw-pan-y:  ;
+-  --tw-pinch-zoom:  ;
++  --tw-border-spacing-x      : 0;
++  --tw-border-spacing-y      : 0;
++  --tw-translate-x           : 0;
++  --tw-translate-y           : 0;
++  --tw-rotate                : 0;
++  --tw-skew-x                : 0;
++  --tw-skew-y                : 0;
++  --tw-scale-x               : 1;
++  --tw-scale-y               : 1;
++  --tw-pan-x                 : ;
++  --tw-pan-y                 : ;
++  --tw-pinch-zoom            : ;
+   --tw-scroll-snap-strictness: proximity;
+-  --tw-ordinal:  ;
+-  --tw-slashed-zero:  ;
+-  --tw-numeric-figure:  ;
+-  --tw-numeric-spacing:  ;
+-  --tw-numeric-fraction:  ;
+-  --tw-ring-inset:  ;
+-  --tw-ring-offset-width: 0px;
+-  --tw-ring-offset-color: #fff;
+-  --tw-ring-color: rgb(59 130 246 / 0.5);
+-  --tw-ring-offset-shadow: 0 0 #0000;
+-  --tw-ring-shadow: 0 0 #0000;
+-  --tw-shadow: 0 0 #0000;
+-  --tw-shadow-colored: 0 0 #0000;
+-  --tw-blur:  ;
+-  --tw-brightness:  ;
+-  --tw-contrast:  ;
+-  --tw-grayscale:  ;
+-  --tw-hue-rotate:  ;
+-  --tw-invert:  ;
+-  --tw-saturate:  ;
+-  --tw-sepia:  ;
+-  --tw-drop-shadow:  ;
+-  --tw-backdrop-blur:  ;
+-  --tw-backdrop-brightness:  ;
+-  --tw-backdrop-contrast:  ;
+-  --tw-backdrop-grayscale:  ;
+-  --tw-backdrop-hue-rotate:  ;
+-  --tw-backdrop-invert:  ;
+-  --tw-backdrop-opacity:  ;
+-  --tw-backdrop-saturate:  ;
+-  --tw-backdrop-sepia:  ;
++  --tw-ordinal               : ;
++  --tw-slashed-zero          : ;
++  --tw-numeric-figure        : ;
++  --tw-numeric-spacing       : ;
++  --tw-numeric-fraction      : ;
++  --tw-ring-inset            : ;
++  --tw-ring-offset-width     : 0px;
++  --tw-ring-offset-color     : #fff;
++  --tw-ring-color            : rgb(59 130 246 / 0.5);
++  --tw-ring-offset-shadow    : 0 0 #0000;
++  --tw-ring-shadow           : 0 0 #0000;
++  --tw-shadow                : 0 0 #0000;
++  --tw-shadow-colored        : 0 0 #0000;
++  --tw-blur                  : ;
++  --tw-brightness            : ;
++  --tw-contrast              : ;
++  --tw-grayscale             : ;
++  --tw-hue-rotate            : ;
++  --tw-invert                : ;
++  --tw-saturate              : ;
++  --tw-sepia                 : ;
++  --tw-drop-shadow           : ;
++  --tw-backdrop-blur         : ;
++  --tw-backdrop-brightness   : ;
++  --tw-backdrop-contrast     : ;
++  --tw-backdrop-grayscale    : ;
++  --tw-backdrop-hue-rotate   : ;
++  --tw-backdrop-invert       : ;
++  --tw-backdrop-opacity      : ;
++  --tw-backdrop-saturate     : ;
++  --tw-backdrop-sepia        : ;
+ }
+ 
+ .absolute {
+@@ -574,17 +577,17 @@
+ }
+ 
+ .mx-auto {
+-  margin-left: auto;
++  margin-left : auto;
+   margin-right: auto;
+ }
+ 
+ .my-4 {
+-  margin-top: 1rem;
++  margin-top   : 1rem;
+   margin-bottom: 1rem;
+ }
+ 
+ .my-10 {
+-  margin-top: 2.5rem;
++  margin-top   : 2.5rem;
+   margin-bottom: 2.5rem;
+ }
+ 
+@@ -628,6 +631,10 @@
+   width: 100%;
+ }
+ 
++.w-ta {
++  width: 40%;
++}
++
+ .w-\[48px\] {
+   width: 48px;
+ }
+@@ -802,80 +809,81 @@
+ 
+ .border-\[\#F7F7FC\] {
+   --tw-border-opacity: 1;
+-  border-color: rgb(247 247 252 / var(--tw-border-opacity));
++  border-color       : rgb(247 247 252 / var(--tw-border-opacity));
+ }
+ 
+ .border-\[\#B38C64\] {
+   --tw-border-opacity: 1;
+-  border-color: rgb(179 140 100 / var(--tw-border-opacity));
++  border-color       : rgb(179 140 100 / var(--tw-border-opacity));
+ }
+ 
+ .border-\[\#F1F1F5\] {
+   --tw-border-opacity: 1;
+-  border-color: rgb(241 241 245 / var(--tw-border-opacity));
++  border-color       : rgb(241 241 245 / var(--tw-border-opacity));
+ }
+ 
+ .border-primary {
+   --tw-border-opacity: 1;
+-  border-color: rgb(224 175 126 / var(--tw-border-opacity));
++  border-color       : rgb(224 175 126 / var(--tw-border-opacity));
+ }
+ 
+ .border-\[\#E0E0E0\] {
+   --tw-border-opacity: 1;
+-  border-color: rgb(224 224 224 / var(--tw-border-opacity));
++  border-color       : rgb(224 224 224 / var(--tw-border-opacity));
+ }
+ 
+ .bg-\[\#FFF\] {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+ }
+ 
+ .bg-\[\#F7F7FC\] {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(247 247 252 / var(--tw-bg-opacity));
+ }
+ 
+ .bg-\[\#FBF7F2\] {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(251 247 242 / var(--tw-bg-opacity));
+ }
+ 
+ .bg-primary {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(224 175 126 / var(--tw-bg-opacity));
+ }
+ 
+ .bg-\[\#F2F2F2\] {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(242 242 242 / var(--tw-bg-opacity));
+ }
+ 
+ .bg-bghead {
+-  background-color: #F5F5F5;;
++  background-color: #F5F5F5;
++  ;
+ }
+ 
+ .bg-\[\#FCFCFC\] {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(252 252 252 / var(--tw-bg-opacity));
+ }
+ 
+ .bg-\[\#EFF0F7\] {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(239 240 247 / var(--tw-bg-opacity));
+ }
+ 
+ .bg-\[\#E0E0E0\] {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(224 224 224 / var(--tw-bg-opacity));
+ }
+ 
+ .bg-\[\#F5E7D8\] {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(245 231 216 / var(--tw-bg-opacity));
+ }
+ 
+ .bg-\[\#E0AF7E\] {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(224 175 126 / var(--tw-bg-opacity));
+ }
+ 
+@@ -896,87 +904,87 @@
+ }
+ 
+ .py-\[20px\] {
+-  padding-top: 20px;
++  padding-top   : 20px;
+   padding-bottom: 20px;
+ }
+ 
+ .px-\[20px\] {
+-  padding-left: 20px;
++  padding-left : 20px;
+   padding-right: 20px;
+ }
+ 
+ .px-16 {
+-  padding-left: 4rem;
++  padding-left : 4rem;
+   padding-right: 4rem;
+ }
+ 
+ .px-10 {
+-  padding-left: 2.5rem;
++  padding-left : 2.5rem;
+   padding-right: 2.5rem;
+ }
+ 
+ .px-\[10px\] {
+-  padding-left: 10px;
++  padding-left : 10px;
+   padding-right: 10px;
+ }
+ 
+ .py-\[30px\] {
+-  padding-top: 30px;
++  padding-top   : 30px;
+   padding-bottom: 30px;
+ }
+ 
+ .py-4 {
+-  padding-top: 1rem;
++  padding-top   : 1rem;
+   padding-bottom: 1rem;
+ }
+ 
+ .py-\[8px\] {
+-  padding-top: 8px;
++  padding-top   : 8px;
+   padding-bottom: 8px;
+ }
+ 
+ .py-5 {
+-  padding-top: 1.25rem;
++  padding-top   : 1.25rem;
+   padding-bottom: 1.25rem;
+ }
+ 
+ .px-4 {
+-  padding-left: 1rem;
++  padding-left : 1rem;
+   padding-right: 1rem;
+ }
+ 
+ .px-6 {
+-  padding-left: 1.5rem;
++  padding-left : 1.5rem;
+   padding-right: 1.5rem;
+ }
+ 
+ .px-5 {
+-  padding-left: 1.25rem;
++  padding-left : 1.25rem;
+   padding-right: 1.25rem;
+ }
+ 
+ .py-6 {
+-  padding-top: 1.5rem;
++  padding-top   : 1.5rem;
+   padding-bottom: 1.5rem;
+ }
+ 
+ .py-2 {
+-  padding-top: 0.5rem;
++  padding-top   : 0.5rem;
+   padding-bottom: 0.5rem;
+ }
+ 
+ .py-11 {
+-  padding-top: 2.75rem;
++  padding-top   : 2.75rem;
+   padding-bottom: 2.75rem;
+ }
+ 
+ .px-2 {
+-  padding-left: 0.5rem;
++  padding-left : 0.5rem;
+   padding-right: 0.5rem;
+ }
+ 
+ .py-3 {
+-  padding-top: 0.75rem;
++  padding-top   : 0.75rem;
+   padding-bottom: 0.75rem;
+ }
+ 
+@@ -989,12 +997,12 @@
+ }
+ 
+ .text-4xl {
+-  font-size: 2.25rem;
++  font-size  : 2.25rem;
+   line-height: 2.5rem;
+ }
+ 
+ .text-sm {
+-  font-size: 0.875rem;
++  font-size  : 0.875rem;
+   line-height: 1.25rem;
+ }
+ 
+@@ -1003,27 +1011,27 @@
+ }
+ 
+ .text-xl {
+-  font-size: 1.25rem;
++  font-size  : 1.25rem;
+   line-height: 1.75rem;
+ }
+ 
+ .text-2xl {
+-  font-size: 1.5rem;
++  font-size  : 1.5rem;
+   line-height: 2rem;
+ }
+ 
+ .text-lg {
+-  font-size: 1.125rem;
++  font-size  : 1.125rem;
+   line-height: 1.75rem;
+ }
+ 
+ .text-xs {
+-  font-size: 0.75rem;
++  font-size  : 0.75rem;
+   line-height: 1rem;
+ }
+ 
+ .text-3xl {
+-  font-size: 1.875rem;
++  font-size  : 1.875rem;
+   line-height: 2.25rem;
+ }
+ 
+@@ -1045,80 +1053,80 @@
+ 
+ .text-primary {
+   --tw-text-opacity: 1;
+-  color: rgb(224 175 126 / var(--tw-text-opacity));
++  color            : rgb(224 175 126 / var(--tw-text-opacity));
+ }
+ 
+ .text-\[\#FFF\] {
+   --tw-text-opacity: 1;
+-  color: rgb(255 255 255 / var(--tw-text-opacity));
++  color            : rgb(255 255 255 / var(--tw-text-opacity));
+ }
+ 
+ .text-\[\#6E7191\] {
+   --tw-text-opacity: 1;
+-  color: rgb(110 113 145 / var(--tw-text-opacity));
++  color            : rgb(110 113 145 / var(--tw-text-opacity));
+ }
+ 
+ .text-\[\#BDBDBD\] {
+   --tw-text-opacity: 1;
+-  color: rgb(189 189 189 / var(--tw-text-opacity));
++  color            : rgb(189 189 189 / var(--tw-text-opacity));
+ }
+ 
+ .text-\[\#A0A3BD\] {
+   --tw-text-opacity: 1;
+-  color: rgb(160 163 189 / var(--tw-text-opacity));
++  color            : rgb(160 163 189 / var(--tw-text-opacity));
+ }
+ 
+ .text-\[\#FFFFFF\] {
+   --tw-text-opacity: 1;
+-  color: rgb(255 255 255 / var(--tw-text-opacity));
++  color            : rgb(255 255 255 / var(--tw-text-opacity));
+ }
+ 
+ .text-\[\#0576F0\] {
+   --tw-text-opacity: 1;
+-  color: rgb(5 118 240 / var(--tw-text-opacity));
++  color            : rgb(5 118 240 / var(--tw-text-opacity));
+ }
+ 
+ .text-\[\#4F4F4F\] {
+   --tw-text-opacity: 1;
+-  color: rgb(79 79 79 / var(--tw-text-opacity));
++  color            : rgb(79 79 79 / var(--tw-text-opacity));
+ }
+ 
+ .text-\[\#828282\] {
+   --tw-text-opacity: 1;
+-  color: rgb(130 130 130 / var(--tw-text-opacity));
++  color            : rgb(130 130 130 / var(--tw-text-opacity));
+ }
+ 
+ .text-brown {
+   --tw-text-opacity: 1;
+-  color: rgb(179 140 100 / var(--tw-text-opacity));
++  color            : rgb(179 140 100 / var(--tw-text-opacity));
+ }
+ 
+ .text-\[\#333333\] {
+   --tw-text-opacity: 1;
+-  color: rgb(51 51 51 / var(--tw-text-opacity));
++  color            : rgb(51 51 51 / var(--tw-text-opacity));
+ }
+ 
+ .shadow-lg {
+-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
++  --tw-shadow        : 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
++  box-shadow         : var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+ }
+ 
+ .shadow-xl {
+-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
++  --tw-shadow        : 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
++  box-shadow         : var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+ }
+ 
+ .outline-none {
+-  outline: 2px solid transparent;
++  outline       : 2px solid transparent;
+   outline-offset: 2px;
+ }
+ 
+ .transition-all {
+-  transition-property: all;
++  transition-property       : all;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+-  transition-duration: 150ms;
++  transition-duration       : 150ms;
+ }
+ 
+ .duration-200 {
+@@ -1130,18 +1138,18 @@
+ }
+ 
+ .hover\:bg-\[\#FFF\]:hover {
+-  --tw-bg-opacity: 1;
++  --tw-bg-opacity : 1;
+   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+ }
+ 
+ .hover\:text-primary:hover {
+   --tw-text-opacity: 1;
+-  color: rgb(224 175 126 / var(--tw-text-opacity));
++  color            : rgb(224 175 126 / var(--tw-text-opacity));
+ }
+ 
+ .focus\:border-primary:focus {
+   --tw-border-opacity: 1;
+-  border-color: rgb(224 175 126 / var(--tw-border-opacity));
++  border-color       : rgb(224 175 126 / var(--tw-border-opacity));
+ }
+ 
+ @media (min-width: 768px) {
+@@ -1198,17 +1206,17 @@
+   }
+ 
+   .md\:py-0 {
+-    padding-top: 0px;
++    padding-top   : 0px;
+     padding-bottom: 0px;
+   }
+ 
+   .md\:px-\[20px\] {
+-    padding-left: 20px;
++    padding-left : 20px;
+     padding-right: 20px;
+   }
+ 
+   .md\:px-8 {
+-    padding-left: 2rem;
++    padding-left : 2rem;
+     padding-right: 2rem;
+   }
+ 
+@@ -1239,7 +1247,7 @@
+   }
+ 
+   .lg\:my-0 {
+-    margin-top: 0px;
++    margin-top   : 0px;
+     margin-bottom: 0px;
+   }
+ 
+@@ -1288,7 +1296,7 @@
+   }
+ 
+   .lg\:py-\[40px\] {
+-    padding-top: 40px;
++    padding-top   : 40px;
+     padding-bottom: 40px;
+   }
+ 
+@@ -1311,7 +1319,7 @@
+   }
+ 
+   .xl\:mx-auto {
+-    margin-left: auto;
++    margin-left : auto;
+     margin-right: auto;
+   }
+ 
+@@ -1324,7 +1332,7 @@
+   }
+ 
+   .xl\:px-0 {
+-    padding-left: 0px;
++    padding-left : 0px;
+     padding-right: 0px;
+   }
+ 

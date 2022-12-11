@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giới thiệu</title>
+    <link rel="stylesheet" href="../../dist/style.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+  </head>
+
+  <body>
+    <div class="modal-add-ban w-full h-full z-[10] absolute">
+      <div
+        class="z-[5] absolute w-full h-full"
+        onclick="$('.modal-add-ban').toggleClass('show-modal')"></div>
+    </div>
+    <header class="bg-[#FFF] shadow-lg py-[20px] md:py-0 z-[6]">
+      <nav
+        class="flex justify-center md:justify-between items-center xl:max-w-[1440px] mx-auto px-[20px] xl:px-0">
+        <div class="w-[111px] lg:w-[177px]">
+          <div class="w-[110px] lg:w-[176px] lg:h-[47px] h-full">
+            <a href="../"
+              ><img src="../../img/logo.png" alt="" class="w-full h-full"
+            /></a>
+          </div>
+        </div>
+        <div class="max-w-[380px] relative hidden lg:block">
+          <input
+            type="text"
+            class="w-full bg-[#F7F7FC] rounded-xl outline-none focus:border-primary border-[1px] border-[#F7F7FC] transition-all duration-200 p-4 px-16 font-medium"
+            placeholder="Tìm kiếm trên Wiscafe" />
+          <svg
+            width="24"
+            height="24"
+            class="absolute top-[16px] left-[20px]"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20Z"
+              stroke="#6E7191"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path
+              d="M22 22L18 18"
+              stroke="#6E7191"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <ul class="tab-menu md:flex justify-center items-center hidden">
+          <li class="active px-10 py-[20px]">
+            <a href="./" class="w-[48px] h-[48px]"
+              ><svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.66663 12.668C2.66663 11.7145 3.11994 10.8177 3.88778 10.2523L16 1.33331L28.1121 10.2523C28.88 10.8177 29.3333 11.7145 29.3333 12.668V28.1666C29.3333 29.5474 28.214 30.6666 26.8333 30.6666H21C20.4477 30.6666 20 30.2189 20 29.6666V21.1666C20 20.8905 19.7761 20.6666 19.5 20.6666H12.5C12.2238 20.6666 12 20.8905 12 21.1666V29.6666C12 30.2189 11.5522 30.6666 11 30.6666H5.16663C3.78591 30.6666 2.66663 29.5474 2.66663 28.1666V12.668Z"
+                  stroke="#6E7191"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+          <li class="px-10 py-[20px]">
+            <a href="#" class="w-[48px] h-[48px]"
+              ><svg
+                width="32"
+                height="32"
+                viewBox="0 0 37 37"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M26.7778 17.0193C26.7778 14.5388 25.7476 12.16 23.9139 10.406C22.0802 8.65203 19.5932 7.66667 17 7.66667C14.4068 7.66667 11.9198 8.65203 10.0861 10.406C8.25238 12.16 7.22222 14.5388 7.22222 17.0193C7.22222 25.3554 3.59053 29.1425 1.87622 30.4658C1.66748 30.627 1.79337 31.0483 2.05706 31.0483H11.0962C11.2132 31.0483 11.3151 31.1287 11.3482 31.2408C11.6064 32.1148 12.9075 35.6667 17 35.6667C21.0925 35.6667 22.3936 32.1148 22.6518 31.2408C22.6849 31.1287 22.7868 31.0483 22.9038 31.0483H31.9429C32.2066 31.0483 32.3325 30.627 32.1238 30.4658C30.4095 29.1425 26.7778 25.3554 26.7778 17.0193Z"
+                  stroke="#6E7191"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <circle
+                  cx="27"
+                  cy="10"
+                  r="9"
+                  fill="#E0AF7E"
+                  stroke="#E0AF7E"
+                  stroke-width="2" />
+              </svg>
+            </a>
+          </li>
+          <li class="px-10 py-[20px]">
+            <a href="../dang-nhap/index.html">
+              <div class="w-[32px] h-[32px] rounded-full">
+                <img
+                  src="../../img/avt.png"
+                  alt=""
+                  class="w-full h-full rounded-full" />
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="bg-[#FBF7F2]">
+      <div
+        class="grid md:grid-cols-1 lg:grid-cols-12 px-[10px] md:px-[20px] xl:max-w-[1440px] xl:mx-auto py-[30px]">
+        <div class="col-span-3"></div>
+        <div class="col-span-6">
+          <h1 class="font-bold text-title text-4xl">Tin tức</h1>
+        </div>
+        <div class="col-span-3"></div>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-12 px-[10px] md:px-[20px] xl:max-w-[1440px] xl:mx-auto gap-y-5 md:gap-y-0">
+        <div class="col-span-12 md:col-span-4 lg:col-span-3">
+          <ul class="tab-menu-side md:pr-8 xl:pr-16 flex flex-col gap-6">
+            <li class="border-2 border-[#B38C64] rounded-xl text-center py-4">
+              <a href="../" class="text-primary font-semibold cursor-pointer"
+                >Quản lý bàn</a
+              >
+            </li>
+            <li class="border-2 border-[#B38C64] rounded-xl text-center py-4">
+              <a
+                href="../menu/"
+                class="text-primary font-semibold cursor-pointer"
+                >Menu đồ uống
+              </a>
+            </li>
+            <li class="border-2 border-[#B38C64] rounded-xl text-center py-4">
+              <a
+                href="../doanh-thu"
+                class="text-primary font-semibold cursor-pointer"
+                >Doanh thu</a
+              >
+            </li>
+            <li class="border-2 border-[#B38C64] rounded-xl text-center py-4">
+              <a
+                href="../hoa-don"
+                class="text-primary font-semibold cursor-pointer"
+                >Hóa đơn</a
+              >
+            </li>
+            <li class="border-2 border-[#B38C64] rounded-xl text-center py-4">
+              <a
+                href="../quan-ly-nhan-vien"
+                class="text-primary font-semibold cursor-pointer"
+                >Giới thiệu</a
+              >
+            </li>
+            <li
+              class="active border-2 border-[#B38C64] rounded-xl text-center py-4">
+              <a
+                href="../tin-tuc/"
+                class="text-primary font-semibold cursor-pointer"
+                >Tin tức</a
+              >
+            </li>
+            <li class="border-2 border-[#B38C64] rounded-xl text-center py-4">
+              <a
+                href="../sale/index1.html"
+                class="text-primary font-semibold cursor-pointer"
+                >Săn sale</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="md:col-span-8 lg:col-span-6">
+          <div class="flex flex-col gap-8">
+            <div class="flex flex-col justify-start items-start gap-6">
+              <h2 class="text-[#333333] font-semibold text-lg">
+                Thông tin mới nhất về trà sữa
+              </h2>
+            </div>
+            <div class="bg-[#FFF] rounded-xl" id="staffs">
+              <div class="grid grid-cols-1 gap-y-4 px-4 py-4">
+                <div
+                  class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-col gap-4 lg:pl-8 xl:pl-10">
+                  <a href="./posts/index1.html">
+                    <div class="bg-[#FFF] rounded-xl shadow-xl p-2">
+                      <p class="p-3 font-semibold text-title text-2xl lg:pb-5">
+                        “Bảng xếp hạng trà sữa” Đông Nam Á: Người Việt Nam chi
+                        bao nhiêu tiền cho trà sữa mỗi năm?
+                      </p>
+                      <img
+                        src="../../img/post/1.webp"
+                        alt=""
+                        class="w-full h-full" />
+                    </div>
+                  </a>
+                  <a href="./posts/index2.html">
+                    <div class="bg-[#FFF] rounded-xl shadow-xl p-2">
+                      <p class="p-3 font-semibold text-title text-2xl lg:pb-5">
+                        “Nghịch lý trà sữa ở Đông Nam Á”
+                      </p>
+                      <img
+                        src="../../img/post/2.webp"
+                        alt=""
+                        class="w-full h-full" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-3">
+          <h3
+            class="text-title font-semibold text-xl py-5 lg:pt-0 lg:pb-5 lg:pl-8 xl:pl-16">
+            Nhận ưu đãi sale lớn ở đây
+          </h3>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-col gap-5 lg:pl-8 xl:pl-16">
+            <div class="bg-[#FFF] rounded-xl shadow-xl p-2">
+              <a href="../sale/index1.html"
+                ><img src="../../img/banner1.png" alt="" class="w-full h-full"
+              /></a>
+            </div>
+            <div class="bg-[#FFF] rounded-xl shadow-xl p-2">
+              <a href="../sale/index2.html"
+                ><img src="../../img/banner2.png" alt="" class="w-full h-full"
+              /></a>
+            </div>
+            <div class="bg-[#FFF] rounded-xl shadow-xl p-2">
+              <a href="../sale/index3.html"
+                ><img src="../../img/banner3.png" alt="" class="w-full h-full"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/main.js"></script>
+  </body>
+</html>
